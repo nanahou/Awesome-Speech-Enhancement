@@ -13,7 +13,7 @@ A tutorial for Speech Enhancement researchers and practioners.
 
 ## Table of contents
 
-[Overview](#Overview)
+* [Overview](#Overview)
 * [Learning materials](#Learning-materials)
   * [Tech blogs](#Tech-blogs)
   * [Video tutorials](#Video-tutorials)
