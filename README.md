@@ -188,7 +188,7 @@ To add items to this page, simply send a pull request. ([contributing guide](CON
 
 ## Learning materials
 * Book or thesis
-  * A Study on WaveNet, GANs and General CNNRNN Architectures, 2019 [link](http://www.diva-portal.org/smash/get/diva2:1355369/FULLTEXT01.pdf)
+  * A Study on WaveNet, GANs and General CNNRNN Architectures, 2019 [[link]](http://www.diva-portal.org/smash/get/diva2:1355369/FULLTEXT01.pdf)
   * [Deep learning: method and applications, 2016](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/DeepLearning-NowPublishing-Vol7-SIG-039.pdf)
   * [Deep learning by Ian Goodfellow and Yoshua Bengio and Aaron Courville, 2016](https://www.deeplearningbook.org/)
   * [Robust automatic speech recognition by Jinyu Li and Li Deng, 2015](https://www.sciencedirect.com/book/9780128023983/robust-automatic-speech-recognition)
