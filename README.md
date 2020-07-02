@@ -166,15 +166,11 @@ To add items to this page, simply send a pull request. ([contributing guide](CON
 
 | Name | Utterances | Speakers | Language | Pricing | Additional information |
 | ---- | ---------- | -------- | -------- | ------- | ---------------------- |
+| [dataset by University of Edinburgh]((https://datashare.is.ed.ac.uk/handle/10283/1942)) | 35K+ | 86 | Free | Noisy speech database for training speech enhancement algorithms and TTS models. |
 | [TIMIT](https://catalog.ldc.upenn.edu/LDC93S1) | 6K+ | 630 | en | $250.00 | Published in 1993, the TIMIT corpus of read speech is one of the earliest speaker recognition datasets. |
 | [VCTK](https://homepages.inf.ed.ac.uk/jyamagis/page3/page58/page58.html) | 43K+ | 109 | en | Free | Most were selected from a newspaper plus the Rainbow Passage and an elicitation paragraph intended to identify the speaker's accent. |
 | [LibriSpeech](http://www.openslr.org/12) | 292K | 2K+ | en | Free | Large-scale (1000 hours) corpus of read English speech. |
-| [LibriVox](https://librivox.org/) | 180K | 9K+ | Multiple | Free | Free public domain audiobooks. LibriSpeech is a processed subset of LibriVox. Each original unsegmented utterance could be very long. |
-| [VoxCeleb 1&2](http://www.robots.ox.ac.uk/~vgg/data/voxceleb/) | 1M+ | 7K | Multiple | Free | VoxCeleb is an audio-visual dataset consisting of short clips of human speech, extracted from interview videos uploaded to YouTube. |
-| [The Spoken Wikipedia Corpora](https://nats.gitlab.io/swc/) | 5K | 879 | en, de, nl | Free | Volunteer readers reading Wikipedia articles. |
-| [CN-Celeb](http://www.openslr.org/82/) | 130K+ | 1K | zh | Free | A Free Chinese Speaker Recognition Corpus Released by CSLT@Tsinghua University. |
-| [BookTubeSpeech](https://users.wpi.edu/~jrwhitehill/BookTubeSpeech/index.html) | 8K | 8K | en | Free | Audio samples extracted from BookTube videos - videos where people share their opinions on books - from YouTube. The dataset can be downloaded using [BookTubeSpeech-download](https://github.com/wq2012/BookTubeSpeech-download). |
-| [DeepMine](http://data.deepmine.ir/en/index.html) | 540K | 1850 | fa, en | Unknown | A speech database in Persian and English designed to build and evaluate speaker verification, as well as Persian ASR systems. |
+
 
 ### Augmentation noise sources
 
@@ -184,7 +180,11 @@ To add items to this page, simply send a pull request. ([contributing guide](CON
 | [MUSAN](https://www.openslr.org/17/) | N/A | Free | MUSAN is a corpus of music, speech, and noise recordings. |
 
 ## SOTA results
-* TBC
+* STOA results in [dataset by University of Edinburgh](https://datashare.is.ed.ac.uk/handle/10283/1942)
+The following methods are all trained by "trainset_28spk" and tested by common testset.
+| Methods | Feature type | PESQ | CSIG | CBAK | COVL | SegSNR | STOI |
+| ------- | ------------ | ---- | ---- | ---- | ---- | ------ | ---- |
+
 
 ## Other learning materials
 ### Book or thesis
@@ -196,11 +196,14 @@ To add items to this page, simply send a pull request. ([contributing guide](CON
 ### Video tutorials
 * [CCF speech seminar 2020](https://www.bilibili.com/video/BV1MV411k7iJ)
 * [Real-time Single-channel Speech Enhancement with Recurrent Neural Networks by Microsoft Research, 2019](https://www.youtube.com/watch?v=r6Ijqo5E3I4)
+* [Deep learning in speech by Hongyi Li, 2019](https://www.youtube.com/playlist?list=PLJV_el3uVTsOK_ZK5L0Iv_EQoL1JefRL4)
 * [High-Accuracy Neural-Network Models for Speech Enhancement, 2017](https://www.microsoft.com/en-us/research/video/high-accuracy-neural-network-models-speech-enhancement/)
 * [DNN-Based Online Speech Enhancement Using Multitask Learning and Suppression Rule Estimation, 2015](https://www.microsoft.com/en-us/research/video/dnn-based-online-speech-enhancement-using-multitask-learning-and-suppression-rule-estimation/)
 * [Microphone array signal processing: beyond the beamformer,2011](https://www.microsoft.com/en-us/research/video/microphone-array-signal-processing-beyond-the-beamformer/)
 
+
 ### Slides
+* [Deep learning in speech by Hongyi Li, 2019](http://speech.ee.ntu.edu.tw/~tlkagk/courses_ML19.html)
 * [Learning-based approach to speech enhancement and separation (INTERSPEECH tutorial, 2016)](https://github.com/nanahou/Awesome-Speech-Enhancement/blob/master/learning-materials/2016-interspeech-tutorial.pdf)
 * [Deep learning for speech/language processing (INTERSPEECH tutorial by Li Deng, 2015)](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/07/interspeech-tutorial-2015-lideng-sept6a.pdf)
 * [Speech enhancement algorithms (Stanford University, 2013)](https://ccrma.stanford.edu/~njb/teaching/sstutorial/part1.pdf)
