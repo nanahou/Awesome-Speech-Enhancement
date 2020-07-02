@@ -188,13 +188,15 @@ To add items to this page, simply send a pull request. ([contributing guide](CON
 ### Book or Thesis
 * [A Study on WaveNet, GANs and General CNNRNN Architectures, 2019](http://www.diva-portal.org/smash/get/diva2:1355369/FULLTEXT01.pdf)
 
-### Slides
-* [INTERSPEECH tutorial 2015 by Deng Li](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/07/interspeech-tutorial-2015-lideng-sept6a.pdf)
-
+### Video tutorials
+* [CCF speech seminar 2020](https://www.bilibili.com/video/BV1MV411k7iJ)
 * [High-Accuracy Neural-Network Models for Speech Enhancement - 2017](https://www.microsoft.com/en-us/research/video/high-accuracy-neural-network-models-speech-enhancement/)
 * [ DNN-Based Online Speech Enhancement Using Multitask Learning and Suppression Rule Estimation - 2015](https://www.microsoft.com/en-us/research/video/dnn-based-online-speech-enhancement-using-multitask-learning-and-suppression-rule-estimation/)
 * [Microphone array signal processing: beyond the beamformer - 2011](https://www.microsoft.com/en-us/research/video/microphone-array-signal-processing-beyond-the-beamformer/)
-* [CCF speech seminar 2020](https://www.bilibili.com/video/BV1MV411k7iJ)
+
+### Slides
+* [INTERSPEECH tutorial 2015 by Deng Li](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/07/interspeech-tutorial-2015-lideng-sept6a.pdf)
+
 
 ### Tech blogs
 
@@ -203,7 +205,7 @@ To add items to this page, simply send a pull request. ([contributing guide](CON
 * [Speaker Diarization: Separation of Multiple Speakers in an Audio File](https://medium.com/datadriveninvestor/speaker-diarization-22121f1264b1) by [Jaspreet Singh](https://medium.com/@jaspreetuseducation)
 * [Speaker Diarization with Kaldi](https://towardsdatascience.com/speaker-diarization-with-kaldi-e30301b05cc8) by [Yoav Ramon](https://towardsdatascience.com/@yoavramon)
 
-### Video tutorials
+
 
 * [Google's Diarization System: Speaker Diarization with LSTM](https://www.youtube.com/watch?v=pjxGPZQeeO4) by Google
 * [Fully Supervised Speaker Diarization: Say Goodbye to clustering](https://www.youtube.com/watch?v=pGkqwRPzx9U) by Google
