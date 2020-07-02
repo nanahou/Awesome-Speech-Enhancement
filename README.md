@@ -187,11 +187,11 @@ To add items to this page, simply send a pull request. ([contributing guide](CON
 
 
 ## Other learning materials
-### Book or thesis
-* [A Study on WaveNet, GANs and General CNNRNN Architectures, 2019](http://www.diva-portal.org/smash/get/diva2:1355369/FULLTEXT01.pdf)
-* [Deep learning: method and applications, 2016](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/DeepLearning-NowPublishing-Vol7-SIG-039.pdf)
-* [Deep learning by Ian Goodfellow and Yoshua Bengio and Aaron Courville, 2016](https://www.deeplearningbook.org/)
-* [Robust automatic speech recognition by Jinyu Li and Li Deng, 2015](https://www.sciencedirect.com/book/9780128023983/robust-automatic-speech-recognition)
+* Book or thesis
+  * [A Study on WaveNet, GANs and General CNNRNN Architectures, 2019](http://www.diva-portal.org/smash/get/diva2:1355369/FULLTEXT01.pdf)
+  * [Deep learning: method and applications, 2016](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/DeepLearning-NowPublishing-Vol7-SIG-039.pdf)
+  * [Deep learning by Ian Goodfellow and Yoshua Bengio and Aaron Courville, 2016](https://www.deeplearningbook.org/)
+  * [Robust automatic speech recognition by Jinyu Li and Li Deng, 2015](https://www.sciencedirect.com/book/9780128023983/robust-automatic-speech-recognition)
 
 ### Video tutorials
 * [CCF speech seminar 2020](https://www.bilibili.com/video/BV1MV411k7iJ)
@@ -207,12 +207,3 @@ To add items to this page, simply send a pull request. ([contributing guide](CON
 * [Learning-based approach to speech enhancement and separation (INTERSPEECH tutorial, 2016)](https://github.com/nanahou/Awesome-Speech-Enhancement/blob/master/learning-materials/2016-interspeech-tutorial.pdf)
 * [Deep learning for speech/language processing (INTERSPEECH tutorial by Li Deng, 2015)](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/07/interspeech-tutorial-2015-lideng-sept6a.pdf)
 * [Speech enhancement algorithms (Stanford University, 2013)](https://ccrma.stanford.edu/~njb/teaching/sstutorial/part1.pdf)
-
-## Products
-
-| Company | Product |
-| ------- | ------- |
-| Google  | [Google Cloud Speech-to-Text API](https://cloud.google.com/speech-to-text/docs/multiple-voices) |
-| Amazon  | [Amazon Transcribe](https://aws.amazon.com/transcribe) |
-| IBM     | [Watson Speech To Text API](https://www.ibm.com/watson/services/speech-to-text) |
-| DeepAffects | [Speaker Diarization API](https://www.deepaffects.com/diarization-api) |
