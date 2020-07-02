@@ -30,7 +30,6 @@
   * [Evaluation](#Evaluation)
   * [Audio feature extraction](#Audio-feature-extraction)
   * [Audio data augmentation](#Audio-data-augmentation)
-  * [Other sotware](#Other-software)
 * [SOTA results](#SOTA-results)
 * [Learning materials](#Learning-materials)
   * [Book or thesis](#book-or-thesis)
@@ -44,8 +43,6 @@ This is a curated list of awesome Speech Enhancement tutorials, papers, librarie
 To add items to this page, simply send a pull request. ([contributing guide](CONTRIBUTING.md))
 
 ## Publications
-
-### Single speech enhancement
 ### Uncategorized
 * [A literature survey on single channel speech enhancement, 2020](http://www.ijstr.org/final-print/mar2020/A-Literature-Survey-On-Single-Channel-Speech-Enhancement-Techniques.pdf)
 * [A review on speech enhancement techniques, 2015](https://ieeexplore.ieee.org/document/7087096)
