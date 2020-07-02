@@ -149,10 +149,11 @@ To add items to this page, simply send a pull request. ([contributing guide](CON
 
 | Name | Utterances | Speakers | Language | Pricing | Additional information |
 | ---- | ---------- | -------- | -------- | ------- | ---------------------- |
-| [dataset by University of Edinburgh](https://datashare.is.ed.ac.uk/handle/10283/1942) | 35K+ | 86 | En | Free | Noisy speech database for training speech enhancement algorithms and TTS models. |
-| [TIMIT](https://catalog.ldc.upenn.edu/LDC93S1) | 6K+ | 630 | En | $250.00 | Published in 1993, the TIMIT corpus of read speech is one of the earliest speaker recognition datasets. |
-| [VCTK](https://homepages.inf.ed.ac.uk/jyamagis/page3/page58/page58.html) | 43K+ | 109 | En | Free | Most were selected from a newspaper plus the Rainbow Passage and an elicitation paragraph intended to identify the speaker's accent. |
-| [LibriSpeech](http://www.openslr.org/12) | 292K | 2K+ | En | Free | Large-scale (1000 hours) corpus of read English speech. |
+| [Dataset by University of Edinburgh (2016)](https://datashare.is.ed.ac.uk/handle/10283/1942) | 35K+ | 86 | English | Free | Noisy speech database for training speech enhancement algorithms and TTS models. |
+| [TIMIT](https://catalog.ldc.upenn.edu/LDC93S1) (1993)| 6K+ | 630 | English | $250.00 | The TIMIT corpus of read speech is one of the earliest speaker recognition datasets. |
+| [VCTK](https://homepages.inf.ed.ac.uk/jyamagis/page3/page58/page58.html) (2009) | 43K+ | 109 | English | Free | Most were selected from a newspaper plus the Rainbow Passage and an elicitation paragraph intended to identify the speaker's accent. |
+| [WSJ]() |
+| [LibriSpeech](http://www.openslr.org/12) (2015) | 292K | 2K+ | English | Free | Large-scale (1000 hours) corpus of read English speech. |
 
 ### Augmentation noise sources
 
@@ -166,6 +167,15 @@ To add items to this page, simply send a pull request. ([contributing guide](CON
 
 | Methods | Feature type | PESQ | CSIG | CBAK | COVL | SegSNR | STOI |
 | ------- | ------------ | ---- | ---- | ---- | ---- | ------ | ---- |
+| Noisy | -- | 1.97 | 3.35 | 2.44 | 2.63 | 1.68 | 0.91 |
+| Wiener | -- | 2.22 | 3.23 | 2.68 | 2.67 | 5.07 | -- |
+| SEGAN | T | 2.16 | 3.48 | 2.94 | 2.80 | 7.73 | 0.93 |
+| CNN-GAN | F | 2.34 | 3.55 | 2.95 | 2.92 | -- | 0.93 |
+| MSE-GAN | F | 2.53 | 3.80 | 3.12 | 3.14 | -- | 0.93 |
+| WaveNet | T | -- | 3.62 | 3.24 | 2.98 | -- | -- |
+| DFL | T | -- | 3.86 | 3.33 | 3.22 | -- | -- |
+| DFL reimplement by | T | 2.51 | 3.79 | 3.27 | 3.14 | 9.86 |-- |
+| Complex U-net | 
 
 ## Other learning materials
 ### Book or thesis
