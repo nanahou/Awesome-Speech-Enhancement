@@ -51,6 +51,8 @@ To add items to this page, simply send a pull request. ([contributing guide](CON
 
 ### Single speech enhancement
 ### Uncategorized
+* [A literature survey on single channel speech enhancement, 2020](http://www.ijstr.org/final-print/mar2020/A-Literature-Survey-On-Single-Channel-Speech-Enhancement-Techniques.pdf)
+* [A review on speech enhancement techniques, 2015](https://ieeexplore.ieee.org/document/7087096)
 * [Nonlinear speechenhancement: an overview, 2007](https://www.researchgate.net/publication/225400856_Nonlinear_Speech_Enhancement_An_Overview)
 * [A Regression Approach to Speech Enhancement Based on Deep Neural Networks, TASLP 2013](http://staff.ustc.edu.cn/~jundu/The%20team/yongxu/demo/pdfs/YongXU_Taslp_2015.pdf)
 * IRM-based-Speech-Enhancement-using-LSTM
@@ -195,29 +197,15 @@ To add items to this page, simply send a pull request. ([contributing guide](CON
 
 ### Video tutorials
 * [CCF speech seminar 2020](https://www.bilibili.com/video/BV1MV411k7iJ)
-* [High-Accuracy Neural-Network Models for Speech Enhancement - 2017](https://www.microsoft.com/en-us/research/video/high-accuracy-neural-network-models-speech-enhancement/)
-* [DNN-Based Online Speech Enhancement Using Multitask Learning and Suppression Rule Estimation - 2015](https://www.microsoft.com/en-us/research/video/dnn-based-online-speech-enhancement-using-multitask-learning-and-suppression-rule-estimation/)
-* [Microphone array signal processing: beyond the beamformer - 2011](https://www.microsoft.com/en-us/research/video/microphone-array-signal-processing-beyond-the-beamformer/)
+* [Real-time Single-channel Speech Enhancement with Recurrent Neural Networks by Microsoft Research, 2019](https://www.youtube.com/watch?v=r6Ijqo5E3I4)
+* [High-Accuracy Neural-Network Models for Speech Enhancement, 2017](https://www.microsoft.com/en-us/research/video/high-accuracy-neural-network-models-speech-enhancement/)
+* [DNN-Based Online Speech Enhancement Using Multitask Learning and Suppression Rule Estimation, 2015](https://www.microsoft.com/en-us/research/video/dnn-based-online-speech-enhancement-using-multitask-learning-and-suppression-rule-estimation/)
+* [Microphone array signal processing: beyond the beamformer,2011](https://www.microsoft.com/en-us/research/video/microphone-array-signal-processing-beyond-the-beamformer/)
 
 ### Slides
-* [Learning-based approach to speech enhancement and separation (INTERSPEECH tutorial 2016)](https://github.com/nanahou/Awesome-Speech-Enhancement/blob/master/learning-materials/2016-interspeech-tutorial.pdf)
-* [Deep learning for speech/language processing (INTERSPEECH tutorial 2015 by Li Deng)](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/07/interspeech-tutorial-2015-lideng-sept6a.pdf)
+* [Learning-based approach to speech enhancement and separation (INTERSPEECH tutorial, 2016)](https://github.com/nanahou/Awesome-Speech-Enhancement/blob/master/learning-materials/2016-interspeech-tutorial.pdf)
+* [Deep learning for speech/language processing (INTERSPEECH tutorial by Li Deng, 2015)](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/07/interspeech-tutorial-2015-lideng-sept6a.pdf)
 * [Speech enhancement algorithms (Stanford University, 2013)](https://ccrma.stanford.edu/~njb/teaching/sstutorial/part1.pdf)
-
-
-### Tech blogs
-
-* [Literature Review For Speaker Change Detection](https://hedonistrh.github.io/2018-07-09-Literature-Review-for-Speaker-Change-Detection/)
-  by [Halil Erdoğan](https://github.com/hedonistrh)
-* [Speaker Diarization: Separation of Multiple Speakers in an Audio File](https://medium.com/datadriveninvestor/speaker-diarization-22121f1264b1) by [Jaspreet Singh](https://medium.com/@jaspreetuseducation)
-* [Speaker Diarization with Kaldi](https://towardsdatascience.com/speaker-diarization-with-kaldi-e30301b05cc8) by [Yoav Ramon](https://towardsdatascience.com/@yoavramon)
-
-
-
-* [Google's Diarization System: Speaker Diarization with LSTM](https://www.youtube.com/watch?v=pjxGPZQeeO4) by Google
-* [Fully Supervised Speaker Diarization: Say Goodbye to clustering](https://www.youtube.com/watch?v=pGkqwRPzx9U) by Google
-* [Speaker Diarization: Optimal Clustering and Learning Speaker Embeddings](https://www.youtube.com/watch?v=vcyB8xb1-ys) by Microsoft Research
-* [Robust Speaker Diarization for Meetings: the ICSI system](https://www.youtube.com/watch?v=kEcUcfLmIS0) by Microsoft Research
 
 ## Products
 
