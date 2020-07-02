@@ -11,16 +11,17 @@
 
 * [Overview](#Overview)
 * [Publications](#Publications)
+  * [Survey](*Survey)
   * [Feature augmentation](#Feature-augmentation)
   * [Network design](#Network-design)
-    * [Mask-based techniques](#Mask-based-techniques)
       * [Filter design](#Filter-design)
-      * [Mask design](#Mask-design)
-    * [Regression-based techniques](#Regression-based-techniques)
-    * [Fusion techniques](#Fusion-techniques)
+      * [Fusion techniques](#Fusion-techniques)
+      * [Attention](#Attention)
+      * [U-net](#U-Net)
+      * [GAN](#GAN)
+  * [Phase reconstruction](#Phase-reconstruction)
   * [Learning strategy](#Learning-strategy)
     * [Loss function](#Loss-function)
-    * [Batch Normalization](#Batch-Normalization)
     * [Multi-task learning](#Multi-task-learning)
     * [Curriculum learning](#Curriculum-learning)
   * [Other improvements](#Other-improvements)
@@ -44,38 +45,49 @@ To add items to this page, simply send a pull request. ([contributing guide](CON
 
 ## Publications
 ### To be categorized
-* [A literature survey on single channel speech enhancement, 2020](http://www.ijstr.org/final-print/mar2020/A-Literature-Survey-On-Single-Channel-Speech-Enhancement-Techniques.pdf)
-* [A review on speech enhancement techniques, 2015](https://ieeexplore.ieee.org/document/7087096)
-* [Nonlinear speechenhancement: an overview, 2007](https://www.researchgate.net/publication/225400856_Nonlinear_Speech_Enhancement_An_Overview)
-* [A Regression Approach to Speech Enhancement Based on Deep Neural Networks, TASLP 2013](http://staff.ustc.edu.cn/~jundu/The%20team/yongxu/demo/pdfs/YongXU_Taslp_2015.pdf) [[code]](https://github.com/yongxuUSTC/DNN-for-speech-enhancement)
-* IRM-based-Speech-Enhancement-using-LSTM
-[[Code]](https://github.com/haoxiangsnr/IRM-based-Speech-Enhancement-using-LSTM)
-* nn-irm
-[[Code]](https://github.com/zhaoforever/nn-irm)
-* Speech Enhancement Using a Two-Stage Network for an Efficient Boosting Strategy
-[[Code]](https://github.com/jtkim-kaist/Speech-enhancement)[[PDF]](https://ieeexplore.ieee.org/document/8668449)
-* SETK: Speech Enhancement Tools integrated with Kaldi 
-[[Code]](https://github.com/funcwj/setk)
-* sednn:deep_learning_for_speech_enhancement_keras_python 
-[[Code]](https://github.com/yongxuUSTC/sednn)
-* Speech_Enhancement_DNN_NMF 
-[[Code]](https://github.com/eesungkim/Speech_Enhancement_DNN_NMF)
-* Deep-Learning-for-Speech-Enhancement 
-[[Code]](https://github.com/miralv/Deep-Learning-for-Speech-Enhancement)
-* gcc-nmf:Real-time GCC-NMF Blind Speech Separation and Enhancement 
-[[Code]](https://github.com/seanwood/gcc-nmf)
-* TensorFlow-speech-enhancement-Chinese [[Code]](https://github.com/linan2/TensorFlow-speech-enhancement-Chinese)
-* DNN-Speech-enhancement-demo-tool [[Code]](https://github.com/yongxuUSTC/DNN-Speech-enhancement-demo-tool)
-* CNN-for-single-channel-speech-enhancement [[Code]](https://github.com/dtx525942103/CNN-for-single-channel-speech-enhancement)
-* rnn-speech-denoising [[Code]](https://github.com/amaas/rnn-speech-denoising)
-* DNN-SpeechEnhancement [[Code]](https://github.com/hyli666/DNN-SpeechEnhancement)
-* segan_pytorch [[Code]](https://github.com/santi-pdp/segan_pytorch)
-* PHASEN[[Code]](https://github.com/huyanxin/phasen)
-* TCNSE [[Code]](https://github.com/ykoyama58/tcnse)
-* pb_chime5:Speech enhancement system for the CHiME-5 dinner party scenario [[Code]](https://github.com/fgnt/pb_chime5)
+#### Survey
+* A literature survey on single channel speech enhancement, 2020 [[paper]](http://www.ijstr.org/final-print/mar2020/A-Literature-Survey-On-Single-Channel-Speech-Enhancement-Techniques.pdf)
+* Supervised speech separation based on deep learning: An Overview, 2017 [[paper]](https://arxiv.org/pdf/1708.07524.pdf)
+* A review on speech enhancement techniques, 2015 [[paper]](https://ieeexplore.ieee.org/document/7087096)
+* Nonlinear speech enhancement: an overview, 2007 [[paper]](https://www.researchgate.net/publication/225400856_Nonlinear_Speech_Enhancement_An_Overview)
+#### Feature augmentation
+* Speech enhancement using self-adaptation and multi-head attention, ICASSP 2020 [[paper]](https://arxiv.org/pdf/2002.05873.pdf)
+* PAN: phoneme-aware network for monaural speech enhancement, ICASSP 2020 [[paper]](https://ieeexplore.ieee.org/document/9054334)
+* Noise tokens: learning neural noise templates for environment-aware speech enhancement [[paper]](https://arxiv.org/pdf/2004.04001.pdf)
+* Speaker-aware deep denoising autoencoder with embedded speaker identity for speech enhancement, Interspeech 2019 [[paper]](https://www.isca-speech.org/archive/Interspeech_2019/pdfs/2108.pdf)
+#### Network design
+* Filter design
+  * Efficient trainable front-ends for neural speech enhancement, ICASSP 2020 [[paper]](https://arxiv.org/pdf/2002.09286.pdf)
+* Fusion techniques
+  * Masking and inpainting: a two-stage speech enhancement approach for low snr and non-stationary noise, ICASSP 2020 [[paper]](https://ieeexplore.ieee.org/document/9053188)
+  * A composite dnn architecture for speech enhancement, ICASSP 2020 [[paper]](https://ieeexplore.ieee.org/document/9053821)
+  * Multi-domain processing via hybrid denoising networks for speech enhancement, 2018 [[paper]](https://arxiv.org/pdf/1812.08914.pdf)
+* Attention
+  * Speech enhancement using self-adaptation and multi-head attention, ICASSP 2020 [[paper]](https://arxiv.org/pdf/2002.05873.pdf)
+  * Channel-attention dense u-net for multichannel speech enhancement, ICASSP 2020 [[paper]](https://arxiv.org/pdf/2001.11542.pdf)
+  * T-GSA: transformer with gaussian-weighted self-attention for speech enhancement, ICASSP 2020 [[paper]](https://arxiv.org/pdf/1910.06762.pdf)
+* U-net
+  * Phase-aware speech enhancement with deep complex u-net, ICLR 2019 [[paper]](https://openreview.net/pdf?id=SkeRTsAcYm) [[code]](https://github.com/sweetcocoa/DeepComplexUNetPyTorch)
+* GAN
+  * PAGAN: a phase-adapted generative adversarial networks for speech enhancement, ICASSP 2020 [[paper](https://ieeexplore.ieee.org/document/9054256) 
+  * Time-frequency masking-based speech enhancement using generative adversarial network, ICASSP 2018 [[paper]](http://150.162.46.34:8080/icassp2018/ICASSP18_USB/pdfs/0005039.pdf)
+  * SEGAN: speech enhancement generative adversarial network, Interspeech 2017 [[paper]](https://arxiv.org/pdf/1703.09452.pdf) 
+#### Phase reconstruction
+* Phase reconstruction based on recurrent phase unwrapping with deep neural networks, ICASSP 2020 [[paper]](https://arxiv.org/pdf/2002.05832.pdf)
+* PAGAN: a phase-adapted generative adversarial networks for speech enhancement, ICASSP 2020 [[paper](https://ieeexplore.ieee.org/document/9054256)
+* Invertible dnn-based nonlinear time-frequency transform for speech enhancement, ICASSP 2020 [[paper]](https://arxiv.org/pdf/1911.10764.pdf)
+* Phase-aware speech enhancement with deep complex u-net, ICLR 2019 [[paper]](https://openreview.net/pdf?id=SkeRTsAcYm) [[code]](https://github.com/sweetcocoa/DeepComplexUNetPyTorch)
+#### Learning strategy
+* Loss function
+  * Speech denoising with deep feature losses, Interspeech 2019 [[paper]](https://arxiv.org/pdf/1806.10522.pdf)
+  * End-to-end multi-task denoising for joint sdr and pesq optimization, Arxiv 2019 [[paper]](https://arxiv.org/pdf/1901.09146.pdf)
+* Multi-task learning
+* Curriculum learning
+#### Other improvements
+* Improving robustness of deep learning based monaural speech enhancement against processing artifacts, ICASSP 2020 [[paper]](https://ieeexplore.ieee.org/document/9054145)
 
 
-## tools
+## Tools
 #### Framework
 
 | Link | Language | Description |
