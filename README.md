@@ -79,37 +79,19 @@ To add items to this page, simply send a pull request. ([contributing guide](CON
 
 
 ## tools
-* SETK: Speech Enhancement Tools integrated with Kaldi [[code]](https://github.com/funcwj/setk)
-* AKtools:the open software toolbox for signal acquisition, processing, and inspection in acoustics [[SVN Code]](https://svn.ak.tu-berlin.de/svn/AKtools)(username: aktools; password: ak)
-* MatlabToolbox [[Code]](https://github.com/IoSR-Surrey/MatlabToolbox)
-* athena-signal [[Code]](https://github.com/athena-team/athena-signal）
-* python_speech_features [[Code]](https://github.com/jameslyons/python_speech_features)
-* speechFeatures:语音处理，声源定位中的一些基本特征 [[Code]](https://github.com/SusannaWull/speechFeatures)
-* sap-voicebox [[Code]](https://github.com/ImperialCollegeLondon/sap-voicebox)
-* Calculate-SNR-SDR [[Code]](https://github.com/JusperLee/Calculate-SNR-SDR)
-* RIR-Generator [[Code]](https://github.com/ehabets/RIR-Generator)
-* Python library for Room Impulse Response (RIR) simulation with GPU acceleration [[Code]](https://github.com/DavidDiazGuerra/gpuRIR)
-* ROOMSIM:binaural image source simulation [[Code]](https://github.com/Wenzhe-Liu/ROOMSIM)
-* binaural-image-source-model [[Code]](https://github.com/iCorv/binaural-image-source-model)
-
-### Framework
+* Framework
 
 | Link | Language | Description |
 | ---- | -------- | ----------- |
-| [SIDEKIT for diarization (s4d)](https://projets-lium.univ-lemans.fr/s4d/) | Python | An open source package extension of SIDEKIT for Speaker diarization. |
+| [SETK](https://github.com/funcwj/setk) | Python & C++ | SETK: Speech Enhancement Tools integrated with Kaldi. |
 | [pyAudioAnalysis](https://github.com/tyiannak/pyAudioAnalysis) ![GitHub stars](https://img.shields.io/github/stars/tyiannak/pyAudioAnalysis?style=social) | Python | Python Audio Analysis Library: Feature Extraction, Classification, Segmentation and Applications. |
-| [AaltoASR](https://github.com/aalto-speech/speaker-diarization) ![GitHub stars](https://img.shields.io/github/stars/aalto-speech/speaker-diarization?style=social) | Python & Perl | Speaker diarization scripts, based on AaltoASR. |
-| [LIUM SpkDiarization](https://projets-lium.univ-lemans.fr/spkdiarization/) | Java | LIUM_SpkDiarization is a software dedicated to speaker diarization (i.e. speaker segmentation and clustering). It is written in Java, and includes the most recent developments in the domain (as of 2013). |
-| [kaldi-asr](https://github.com/kaldi-asr/kaldi/tree/master/egs/callhome_diarization) [![Build Status](https://travis-ci.com/kaldi-asr/kaldi.svg?branch=master)](https://travis-ci.com/kaldi-asr/kaldi) | Bash | Example scripts for speaker diarization on a portion of CALLHOME used in the 2000 NIST speaker recognition evaluation. |
-| [Alize LIA_SpkSeg](https://alize.univ-avignon.fr/) | C++ | ALIZÉ is an opensource platform for speaker recognition. LIA_SpkSeg is the tools for speaker diarization. |
-| [pyannote-audio](https://github.com/pyannote/pyannote-audio) ![GitHub stars](https://img.shields.io/github/stars/pyannote/pyannote-audio?style=social) | Python | Neural building blocks for speaker diarization: speech activity detection, speaker change detection, speaker embedding. |
-| [pyBK](https://github.com/josepatino/pyBK) ![GitHub stars](https://img.shields.io/github/stars/josepatino/pyBK?style=social) | Python | Speaker diarization using binary key speaker modelling. Computationally light solution that does not require external training data. |
-| [Speaker-Diarization](https://github.com/taylorlu/Speaker-Diarization) ![GitHub stars](https://img.shields.io/github/stars/taylorlu/Speaker-Diarization?style=social) | Python | Speaker diarization using uis-rnn and GhostVLAD. An easier way to support openset speakers. |
-| [EEND](https://github.com/hitachi-speech/EEND) ![GitHub stars](https://img.shields.io/github/stars/hitachi-speech/EEND?style=social) | Python & Bash & Perl | End-to-End Neural Diarization. |
-| [VBDiarization](https://github.com/Jamiroquai88/VBDiarization) ![GitHub stars](https://img.shields.io/github/stars/Jamiroquai88/VBDiarization?style=social) | Python | Speaker diarization based on Kaldi x-vectors using pretrained model trained in Kaldi ([kaldi-asr/kaldi](https://github.com/kaldi-asr/kaldi)) and converted to ONNX format ([onnx/onnx](https://github.com/onnx/onnx)) running in ONNXRuntime ([Microsoft/onnxruntime](https://github.com/Microsoft/onnxruntime)). |
-| [RE-VERB](https://github.com/team-re-verb/RE-VERB) ![GitHub stars](https://img.shields.io/github/stars/team-re-verb/RE-VERB?style=social) | Python & JavaScript | RE: VERB is speaker diarization system, it allows the user to send/record audio of a conversation and receive timestamps of who spoke when. |
+| [Beamformer](https://github.com/funcwj/setk/tree/master/doc/adaptive_beamformer) | Python | Implementation of the mask-based adaptive beamformer (MVDR, GEVD, MCWF). |
+| [Time-frequency Mask](https://github.com/funcwj/setk/tree/master/doc/tf_mask) | Python | Computation of the time-frequency mask (PSM, IRM, IBM, IAM, ...) as the neural network training labels. |
+| [SSL](https://github.com/funcwj/setk/tree/master/doc/ssl) | Python | Implementation of Sound Source Localization. |
+| [Data format](https://github.com/funcwj/setk/tree/master/doc/format_transform) | Python | Format tranform between Kaldi, Numpy and Matlab. |
 
-### Evaluation
+
+* Evaluation
 
 | Link | Language | Description |
 | ---- | -------- | ----------- |
@@ -117,7 +99,7 @@ To add items to this page, simply send a pull request. ([contributing guide](CON
 | [SNR, LSD](https://github.com/nanahou/metric) | Python | Evaluation for signal-to-noise-ratio and log-spectral-distortion. |
 | [SDR](https://github.com/nanahou/metric) | Matlab | Evaluation for signal-to-distortion-ratio. |
 
-### Audio feature extraction
+* Audio feature extraction
 
 | Link  | Language | Description |
 | ----  | -------- | ----------- |
@@ -125,13 +107,13 @@ To add items to this page, simply send a pull request. ([contributing guide](CON
 | [MFCC](https://github.com/jameslyons/python_speech_features) ![GitHub stars](https://img.shields.io/github/stars/jameslyons/python_speech_features?style=social) | Python | This library provides common speech features for ASR including MFCCs and filterbank energies. https://python-speech-features.readthedocs.io/en/latest/ |
 | [pyAudioAnalysis](https://github.com/tyiannak/pyAudioAnalysis) ![GitHub stars](https://img.shields.io/github/stars/tyiannak/pyAudioAnalysis?style=social) | Python | Python Audio Analysis Library: Feature Extraction, Classification, Segmentation and Applications. |
 
-### Audio data augmentation
+* Audio data augmentation
 
 | Link  | Language | Description |
 | ----  | -------- | ----------- |
 | [Data simulation](https://github.com/funcwj/setk/tree/master/doc/data_simu) | Python | Add reverberation, noise or mix speaker. |
 | [RIR simulation](https://github.com/funcwj/setk/tree/master/doc/rir) | Python | Generation of the room impluse response (RIR) using image method. |
-| [pyroomacoustics](https://github.com/LCAV/pyroomacoustics) ![GitHub stars](https://img.shields.io/github/stars/LCAV/pyroomacoustics?style=social) | Python | Pyroomacoustics is a package for audio signal processing for indoor applications. It was developed as a fast prototyping platform for beamforming algorithms in indoor scenarios. https://pyroomacoustics.readthedocs.io |
+| [pyroomacoustics](https://github.com/LCAV/pyroomacoustics) ![GitHub stars](https://img.shields.io/github/stars/LCAV/pyroomacoustics?style=social) | Python | Pyroomacoustics is a package for audio signal processing for indoor applications. |
 | [gpuRIR](https://github.com/DavidDiazGuerra/gpuRIR) ![GitHub stars](https://img.shields.io/github/stars/DavidDiazGuerra/gpuRIR?style=social) | Python | Python library for Room Impulse Response (RIR) simulation with GPU acceleration |
 | [rir_simulator_python](https://github.com/sunits/rir_simulator_python) ![GitHub stars](https://img.shields.io/github/stars/sunits/rir_simulator_python?style=social) | Python | Room impulse response simulator using python |
 
