@@ -170,7 +170,7 @@ To add items to this page, simply send a pull request. ([contributing guide](CON
 | [Noisy](https://arxiv.org/pdf/1703.09452.pdf) | -- | -- | 1.97 | 3.35 | 2.44 | 2.63 | 1.68 | 0.91 |
 | [Wiener](https://arxiv.org/pdf/1703.09452.pdf) | -- | -- | 2.22 | 3.23 | 2.68 | 2.67 | 5.07 | -- |
 | [SEGAN](https://arxiv.org/pdf/1703.09452.pdf) | INTERSPEECH 2017 | T | 2.16 | 3.48 | 2.94 | 2.80 | 7.73 | 0.93 |
-| [CNN-GAN] | APSIPA 2018 | F | 2.34 | 3.55 | 2.95 | 2.92 | -- | 0.93 |
+| [CNN-GAN](http://www.apsipa.org/proceedings/2018/pdfs/0001246.pdf) | APSIPA 2018 | F | 2.34 | 3.55 | 2.95 | 2.92 | -- | 0.93 |
 | [WaveUnet](https://arxiv.org/pdf/1811.11307.pdf) | arxiv 2018 | T| 2.40 | 3.52 | 3.24 | 2.96 | 9.97 | -- |
 | [WaveNet](https://arxiv.org/pdf/1706.07162.pdf) | ICASSP 2018 | T | -- | 3.62 | 3.24 | 2.98 | -- | -- |
 | [U-net](https://ejhumphrey.com/assets/pdf/jansson2017singing.pdf) | ISMIR 2017 | F | 2.48 | 3.65 | 3.21 | 3.05 | 9.34 | -- |
@@ -180,7 +180,7 @@ To add items to this page, simply send a pull request. ([contributing guide](CON
 | [TasNet](https://arxiv.org/pdf/1809.07454.pdf) | TASLP 2019 | T | 2.57 | 3.80 | 3.29 | 3.18 | 9.65 | -- |
 | [MDPhD](https://arxiv.org/pdf/1812.08914.pdf) | arxiv 2018 | T&F | 2.70 | 3.85 | 3.39 | 3.27 | 10.22 | -- |
 | [Complex U-net](https://openreview.net/pdf?id=SkeRTsAcYm) | INTERSPEECH 2019 | F | 3.24 | 4.34 | 4.10 | 3.81 | 16.85 | -- |
-| [Complex U-net reimplemented]((https://arxiv.org/pdf/1901.09146.pdf)) | arxiv 2019 | F | 2.87 | 4.12 | 3.47 | 3.51 | 9.96 | -- |
+| [Complex U-net reimplemented](https://arxiv.org/pdf/1901.09146.pdf) | arxiv 2019 | F | 2.87 | 4.12 | 3.47 | 3.51 | 9.96 | -- |
 | [SDR-PRSQ](https://arxiv.org/pdf/1901.09146.pdf) | arxiv 2019 | F | 3.01 | 4.09 | 3.54 | 3.55 | 10.44 |
 | [RHRnet](https://arxiv.org/pdf/1904.07294.pdf) | ICASSP 2020 | T | 3.20 | 4.37 | 4.02 | 3.82 | 14.71 | 0.98 |
 
