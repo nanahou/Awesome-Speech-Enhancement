@@ -189,20 +189,20 @@ To add items to this page, simply send a pull request. ([contributing guide](CON
 ## Learning materials
 * Book or thesis
   * A Study on WaveNet, GANs and General CNNRNN Architectures, 2019 [[link]](http://www.diva-portal.org/smash/get/diva2:1355369/FULLTEXT01.pdf)
-  * [Deep learning: method and applications, 2016](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/DeepLearning-NowPublishing-Vol7-SIG-039.pdf)
-  * [Deep learning by Ian Goodfellow and Yoshua Bengio and Aaron Courville, 2016](https://www.deeplearningbook.org/)
-  * [Robust automatic speech recognition by Jinyu Li and Li Deng, 2015](https://www.sciencedirect.com/book/9780128023983/robust-automatic-speech-recognition)
+  * Deep learning: method and applications, 2016 [[link]](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/DeepLearning-NowPublishing-Vol7-SIG-039.pdf)
+  * Deep learning by Ian Goodfellow and Yoshua Bengio and Aaron Courville, 2016 [[link]](https://www.deeplearningbook.org/)
+  * Robust automatic speech recognition by Jinyu Li and Li Deng, 2015 [[link]](https://www.sciencedirect.com/book/9780128023983/robust-automatic-speech-recognition)
 
 * Video tutorials
-  * [CCF speech seminar 2020](https://www.bilibili.com/video/BV1MV411k7iJ)
-  * [Real-time Single-channel Speech Enhancement with Recurrent Neural Networks by Microsoft Research, 2019](https://www.youtube.com/watch?v=r6Ijqo5E3I4)
-  * [Deep learning in speech by Hongyi Li, 2019](https://www.youtube.com/playlist?list=PLJV_el3uVTsOK_ZK5L0Iv_EQoL1JefRL4)
-  * [High-Accuracy Neural-Network Models for Speech Enhancement, 2017](https://www.microsoft.com/en-us/research/video/high-accuracy-neural-network-models-speech-enhancement/)
-  * [DNN-Based Online Speech Enhancement Using Multitask Learning and Suppression Rule Estimation, 2015](https://www.microsoft.com/en-us/research/video/dnn-based-online-speech-enhancement-using-multitask-learning-and-suppression-rule-estimation/)
-  * [Microphone array signal processing: beyond the beamformer,2011](https://www.microsoft.com/en-us/research/video/microphone-array-signal-processing-beyond-the-beamformer/)
+  * CCF speech seminar 2020 [[link]](https://www.bilibili.com/video/BV1MV411k7iJ)
+  * Real-time Single-channel Speech Enhancement with Recurrent Neural Networks by Microsoft Research, 2019 [[link]](https://www.youtube.com/watch?v=r6Ijqo5E3I4)
+  * Deep learning in speech by Hongyi Li, 2019 [[link]](https://www.youtube.com/playlist?list=PLJV_el3uVTsOK_ZK5L0Iv_EQoL1JefRL4)
+  * High-Accuracy Neural-Network Models for Speech Enhancement, 2017 [[link]](https://www.microsoft.com/en-us/research/video/high-accuracy-neural-network-models-speech-enhancement/)
+  * DNN-Based Online Speech Enhancement Using Multitask Learning and Suppression Rule Estimation, 2015 [[link]](https://www.microsoft.com/en-us/research/video/dnn-based-online-speech-enhancement-using-multitask-learning-and-suppression-rule-estimation/)
+  * Microphone array signal processing: beyond the beamformer,2011 [[link]](https://www.microsoft.com/en-us/research/video/microphone-array-signal-processing-beyond-the-beamformer/)
 
 * Slides
-  * [Deep learning in speech by Hongyi Li, 2019](http://speech.ee.ntu.edu.tw/~tlkagk/courses_ML19.html)
-  * [Learning-based approach to speech enhancement and separation (INTERSPEECH tutorial, 2016)](https://github.com/nanahou/Awesome-Speech-Enhancement/blob/master/learning-materials/2016-interspeech-tutorial.pdf)
-  * [Deep learning for speech/language processing (INTERSPEECH tutorial by Li Deng, 2015)](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/07/interspeech-tutorial-2015-lideng-sept6a.pdf)
-  * [Speech enhancement algorithms (Stanford University, 2013)](https://ccrma.stanford.edu/~njb/teaching/sstutorial/part1.pdf)
+  * Deep learning in speech by Hongyi Li, 2019 [[link]](http://speech.ee.ntu.edu.tw/~tlkagk/courses_ML19.html)
+  * Learning-based approach to speech enhancement and separation (INTERSPEECH tutorial, 2016) [[link]](https://github.com/nanahou/Awesome-Speech-Enhancement/blob/master/learning-materials/2016-interspeech-tutorial.pdf)
+  * Deep learning for speech/language processing (INTERSPEECH tutorial by Li Deng, 2015) [[link]](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/07/interspeech-tutorial-2015-lideng-sept6a.pdf)
+  * Speech enhancement algorithms (Stanford University, 2013) [[link]](https://ccrma.stanford.edu/~njb/teaching/sstutorial/part1.pdf)
