@@ -1,7 +1,8 @@
+[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) 
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-YES-green.svg)](https://github.com/HuaizhengZhang/Awesome-System-for-Machine-Learning/graphs/commit-activity)
 [![Commit Activity](https://img.shields.io/github/commit-activity/m/HuaizhengZhang/Awesome-System-for-Machine-Learning.svg?color=red)](https://github.com/nanahou/Awesome-Speech-Enhancement/graphs/commit-activity)
 [![Last Commit](https://img.shields.io/github/last-commit/HuaizhengZhang/Awesome-System-for-Machine-Learning.svg)](https://github.com/HuaizhengZhang/Awesome-System-for-Machine-Learning/commits/master)
-[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) [![Contribution](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/wq2012/awesome-diarization/blob/master/CONTRIBUTING.md)
+[![Contribution](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/wq2012/awesome-diarization/blob/master/CONTRIBUTING.md)
 [![GitHub license](https://img.shields.io/github/license/HuaizhengZhang/Awesome-System-for-Machine-Learning.svg?color=blue)](https://github.com/nanahou/Awesome-Speech-Enhancement/blob/master/LICENSE)
 
 
@@ -140,22 +141,24 @@ To add items to this page, simply send a pull request. ([contributing guide](CON
 | [VB Diarization](https://github.com/wq2012/VB_diarization) ![GitHub stars](https://img.shields.io/github/stars/wq2012/VB_diarization?style=social) [![Build Status](https://travis-ci.org/wq2012/VB_diarization.svg?branch=master)](https://travis-ci.org/wq2012/VB_diarization) | Python | VB Diarization with Eigenvoice and HMM Priors. |
 
 ## Datasets
-### Speech ehancement datasets
+* Speech ehancement datasets
 
 | Name | Utterances | Speakers | Language | Pricing | Additional information |
 | ---- | ---------- | -------- | -------- | ------- | ---------------------- |
 | [Dataset by University of Edinburgh](https://datashare.is.ed.ac.uk/handle/10283/1942) (2016)| 35K+ | 86 | English | Free | Noisy speech database for training speech enhancement algorithms and TTS models. |
 | [TIMIT](https://catalog.ldc.upenn.edu/LDC93S1) (1993)| 6K+ | 630 | English | $250.00 | The TIMIT corpus of read speech is one of the earliest speaker recognition datasets. |
 | [VCTK](https://homepages.inf.ed.ac.uk/jyamagis/page3/page58/page58.html) (2009) | 43K+ | 109 | English | Free | Most were selected from a newspaper plus the Rainbow Passage and an elicitation paragraph intended to identify the speaker's accent. |
-| [WSJ]() |
+| [WSJ0](https://catalog.ldc.upenn.edu/LDC93S6A)(1993) | -- | 149 | $1500 | The WSJ database was generated from a machine-readable corpus of Wall Street Journal news text. Some spontaneous dictation is included in addition to the read speech. |
 | [LibriSpeech](http://www.openslr.org/12) (2015) | 292K | 2K+ | English | Free | Large-scale (1000 hours) corpus of read English speech. |
+| [CHiME series](https://chimechallenge.github.io/chime6/) (~2020) | -- | -- | Free | The database is published by CHiME Speech Separation and Recognition Challenge. | 
 
-### Augmentation noise sources
+* Augmentation noise sources
 
-| Name | Utterances | Pricing | Additional information |
-| ---- | ---------- | ------- | ---------------------- |
-| [AudioSet](https://research.google.com/audioset/) | 2M | Free | A large-scale dataset of manually annotated audio events. |
-| [MUSAN](https://www.openslr.org/17/) | N/A | Free | MUSAN is a corpus of music, speech, and noise recordings. |
+| Name | Noise types | Pricing | Additional information |
+| ---- | ----------- | ------- | ---------------------- |
+| [DEMAND](https://zenodo.org/record/1227121#.Xv2VsZP7RhE) (2013) | 18 | Free | Diverse Environments Multichannel Acoustic Noise Database presented here provides a set of recordings that allow testing of algorithms using real-world noise in a variety of settings. |
+| [115 Noise](http://staff.ustc.edu.cn/~jundu/The%20team/yongxu/demo/115noises.html) (2015)| 115 | Free | The noise bank for simulate noisy data with clean speech. For N1-N100 noises, they were collected by Guoning Hu and the other 15 home-made noise types by USTC.|
+| [NoiseX-92](http://www.speech.cs.cmu.edu/comp.speech/Section1/Data/noisex.html) (1996)| 15 | Free | Database of recording of various noises available on 2 CDROMs. |
 
 ## SOTA results
 * STOA results in [dataset by University of Edinburgh](https://datashare.is.ed.ac.uk/handle/10283/1942). The following methods are all trained by "trainset_28spk" and tested by common testset. ("F" denotes frequency-domain and "T" is time-domain.)
@@ -178,8 +181,6 @@ To add items to this page, simply send a pull request. ([contributing guide](CON
 | [Complex U-net reimplemented](https://arxiv.org/pdf/1901.09146.pdf) | arxiv 2019 | F | 2.87 | 4.12 | 3.47 | 3.51 | 9.96 | -- |
 | [SDR-PRSQ](https://arxiv.org/pdf/1901.09146.pdf) | arxiv 2019 | F | 3.01 | 4.09 | 3.54 | 3.55 | 10.44 |
 | [RHRnet](https://arxiv.org/pdf/1904.07294.pdf) | ICASSP 2020 | T | 3.20 | 4.37 | 4.02 | 3.82 | 14.71 | 0.98 |
-
-
 
 ## Learning materials
 * Book or thesis
