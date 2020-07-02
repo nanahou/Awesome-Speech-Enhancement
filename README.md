@@ -1,20 +1,14 @@
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-YES-green.svg)](https://github.com/HuaizhengZhang/Awesome-System-for-Machine-Learning/graphs/commit-activity)
-[![Commit Activity](https://img.shields.io/github/commit-activity/m/HuaizhengZhang/Awesome-System-for-Machine-Learning.svg?color=red)](https://github.com/HuaizhengZhang/Awesome-System-for-Machine-Learning/graphs/commit-activity)
+[![Commit Activity](https://img.shields.io/github/commit-activity/m/HuaizhengZhang/Awesome-System-for-Machine-Learning.svg?color=red)](https://github.com/nanahou/Awesome-Speech-Enhancement/graphs/commit-activity)
 [![Last Commit](https://img.shields.io/github/last-commit/HuaizhengZhang/Awesome-System-for-Machine-Learning.svg)](https://github.com/HuaizhengZhang/Awesome-System-for-Machine-Learning/commits/master)
-[![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://GitHub.com/Naereen/ama)
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) [![Contribution](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/wq2012/awesome-diarization/blob/master/CONTRIBUTING.md)
-[![GitHub license](https://img.shields.io/github/license/HuaizhengZhang/Awesome-System-for-Machine-Learning.svg?color=blue)](https://github.com/HuaizhengZhang/Awesome-System-for-Machine-Learning/blob/master/LICENSE)
+[![GitHub license](https://img.shields.io/github/license/HuaizhengZhang/Awesome-System-for-Machine-Learning.svg?color=blue)](https://github.com/nanahou/Awesome-Speech-Enhancement/blob/master/LICENSE)
 
 
 # Awesome Speech Enhancement
 ## Table of contents
 
 * [Overview](#Overview)
-* [Learning materials](#Learning-materials)
-  * [Book or thesis](#book-or-thesis)
-  * [Video tutorials](#Video-tutorials)
-  * [Slides](#Slides)
-  * [Tech blogs](#Tech-blogs)
 * [Publications](#Publications)
   * [Feature augmentation](#Feature-augmentation)
   * [Network design](#Network-design)
@@ -37,9 +31,10 @@
   * [Audio data augmentation](#Audio-data-augmentation)
   * [Other sotware](#Other-software)
 * [SOTA results](#SOTA-results)
-* [Leaderboards](#Leaderboards)
-* [Products](#Products)
-
+* [Learning materials](#Learning-materials)
+  * [Book or thesis](#book-or-thesis)
+  * [Video tutorials](#Video-tutorials)
+  * [Slides](#Slides)
 
 ## Overview
 
