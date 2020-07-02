@@ -145,32 +145,14 @@ To add items to this page, simply send a pull request. ([contributing guide](CON
 | [VB Diarization](https://github.com/wq2012/VB_diarization) ![GitHub stars](https://img.shields.io/github/stars/wq2012/VB_diarization?style=social) [![Build Status](https://travis-ci.org/wq2012/VB_diarization.svg?branch=master)](https://travis-ci.org/wq2012/VB_diarization) | Python | VB Diarization with Eigenvoice and HMM Priors. |
 
 ## Datasets
-
-### Diarization datasets
-
-| Audio | Diarization ground truth | Language | Pricing | Additional information |
-| ----- | ------------------------ | -------- | ------- | ---------------------- |
-| [2000 NIST Speaker Recognition Evaluation](https://catalog.ldc.upenn.edu/LDC2001S97) | [Disk-6 (Switchboard)](https://github.com/google/speaker-id/tree/master/publications/LstmDiarization/evaluation/NIST_SRE2000/Disk6_ground_truth), [Disk-8  (CALLHOME)](https://github.com/google/speaker-id/tree/master/publications/LstmDiarization/evaluation/NIST_SRE2000/Disk8_ground_truth) | Multiple | $2400.00 | [Evaluation Plan](https://www.nist.gov/sites/default/files/documents/2017/09/26/spk-2000-plan-v1.0.htm_.pdf) |
-| [2003 NIST Rich Transcription Evaluation Data](https://catalog.ldc.upenn.edu/LDC2007S10) | Together with audios | en, ar, zh | $2000.00 | telephone speech, broadcast news |
-| [CALLHOME American English Speech](https://catalog.ldc.upenn.edu/LDC97S42) | [CALLHOME American English Transcripts](https://catalog.ldc.upenn.edu/LDC97T14) | en | $1500.00 + $1000.00| [CH109 whitelist](https://github.com/google/speaker-id/blob/master/publications/LstmDiarization/evaluation/CALLHOME_American_English/ch109_whitelist.txt) |
-| [The ICSI Meeting Corpus](http://groups.inf.ed.ac.uk/ami/icsi/) | Together with audios | en | Free | [License](http://groups.inf.ed.ac.uk/ami/icsi/license.shtml) |
-| [The AMI Meeting Corpus](http://groups.inf.ed.ac.uk/ami/corpus/) | Together with audios (need to be processed) | Multiple | Free | [License](http://groups.inf.ed.ac.uk/ami/corpus/license.shtml) |
-| [Fisher English Training Speech Part 1 Speech](https://catalog.ldc.upenn.edu/LDC2004S13) | [Fisher English Training Speech Part 1 Transcripts](https://catalog.ldc.upenn.edu/LDC2004T19)| en | $7000.00 + $1000.00 |
-| [Fisher English Training Part 2, Speech](https://catalog.ldc.upenn.edu/LDC2005S13) | [Fisher English Training Part 2, Transcripts](https://catalog.ldc.upenn.edu/LDC2005T19) | en | $7000.00 + $1000.00 |
-
-* [TED-LIUM Corpus](http://www.openslr.org/7/)
-* [LibriSpeech ASR Corpus](http://www.openslr.org/12/)
-* [TIMIT Corpus Sample (LDC93S1)](https://www.kaggle.com/nltkdata/timitcorpus)
-
-### Speaker embedding training sets
+### Speech ehancement datasets
 
 | Name | Utterances | Speakers | Language | Pricing | Additional information |
 | ---- | ---------- | -------- | -------- | ------- | ---------------------- |
-| [dataset by University of Edinburgh]((https://datashare.is.ed.ac.uk/handle/10283/1942)) | 35K+ | 86 | Free | Noisy speech database for training speech enhancement algorithms and TTS models. |
-| [TIMIT](https://catalog.ldc.upenn.edu/LDC93S1) | 6K+ | 630 | en | $250.00 | Published in 1993, the TIMIT corpus of read speech is one of the earliest speaker recognition datasets. |
-| [VCTK](https://homepages.inf.ed.ac.uk/jyamagis/page3/page58/page58.html) | 43K+ | 109 | en | Free | Most were selected from a newspaper plus the Rainbow Passage and an elicitation paragraph intended to identify the speaker's accent. |
-| [LibriSpeech](http://www.openslr.org/12) | 292K | 2K+ | en | Free | Large-scale (1000 hours) corpus of read English speech. |
-
+| [dataset by University of Edinburgh](https://datashare.is.ed.ac.uk/handle/10283/1942) | 35K+ | 86 | En | Free | Noisy speech database for training speech enhancement algorithms and TTS models. |
+| [TIMIT](https://catalog.ldc.upenn.edu/LDC93S1) | 6K+ | 630 | En | $250.00 | Published in 1993, the TIMIT corpus of read speech is one of the earliest speaker recognition datasets. |
+| [VCTK](https://homepages.inf.ed.ac.uk/jyamagis/page3/page58/page58.html) | 43K+ | 109 | En | Free | Most were selected from a newspaper plus the Rainbow Passage and an elicitation paragraph intended to identify the speaker's accent. |
+| [LibriSpeech](http://www.openslr.org/12) | 292K | 2K+ | En | Free | Large-scale (1000 hours) corpus of read English speech. |
 
 ### Augmentation noise sources
 
@@ -180,11 +162,10 @@ To add items to this page, simply send a pull request. ([contributing guide](CON
 | [MUSAN](https://www.openslr.org/17/) | N/A | Free | MUSAN is a corpus of music, speech, and noise recordings. |
 
 ## SOTA results
-* STOA results in [dataset by University of Edinburgh](https://datashare.is.ed.ac.uk/handle/10283/1942)
-The following methods are all trained by "trainset_28spk" and tested by common testset.
+* STOA results in [dataset by University of Edinburgh](https://datashare.is.ed.ac.uk/handle/10283/1942). The following methods are all trained by "trainset_28spk" and tested by common testset.
+
 | Methods | Feature type | PESQ | CSIG | CBAK | COVL | SegSNR | STOI |
 | ------- | ------------ | ---- | ---- | ---- | ---- | ------ | ---- |
-
 
 ## Other learning materials
 ### Book or thesis
