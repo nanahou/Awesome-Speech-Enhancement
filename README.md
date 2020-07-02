@@ -43,7 +43,7 @@ This is a curated list of awesome Speech Enhancement tutorials, papers, librarie
 To add items to this page, simply send a pull request. ([contributing guide](CONTRIBUTING.md))
 
 ## Publications
-### Uncategorized
+### To be categorized
 * [A literature survey on single channel speech enhancement, 2020](http://www.ijstr.org/final-print/mar2020/A-Literature-Survey-On-Single-Channel-Speech-Enhancement-Techniques.pdf)
 * [A review on speech enhancement techniques, 2015](https://ieeexplore.ieee.org/document/7087096)
 * [Nonlinear speechenhancement: an overview, 2007](https://www.researchgate.net/publication/225400856_Nonlinear_Speech_Enhancement_An_Overview)
@@ -101,7 +101,7 @@ To add items to this page, simply send a pull request. ([contributing guide](CON
 | Link  | Language | Description |
 | ----  | -------- | ----------- |
 | [LPS](https://github.com/nanahou/LPS_extraction) | Python | Extract log-power-spectrum/magnitude spectrum/log-magnitude spectrum/Cepstral mean and variance normalization. |
-| [MFCC](https://github.com/jameslyons/python_speech_features) ![GitHub stars](https://img.shields.io/github/stars/jameslyons/python_speech_features?style=social) | Python | This library provides common speech features for ASR including MFCCs and filterbank energies. https://python-speech-features.readthedocs.io/en/latest/ |
+| [MFCC](https://github.com/jameslyons/python_speech_features) ![GitHub stars](https://img.shields.io/github/stars/jameslyons/python_speech_features?style=social) | Python | This library provides common speech features for ASR including MFCCs and filterbank energies. |
 | [pyAudioAnalysis](https://github.com/tyiannak/pyAudioAnalysis) ![GitHub stars](https://img.shields.io/github/stars/tyiannak/pyAudioAnalysis?style=social) | Python | Python Audio Analysis Library: Feature Extraction, Classification, Segmentation and Applications. |
 
 * Audio data augmentation
@@ -123,7 +123,7 @@ To add items to this page, simply send a pull request. ([contributing guide](CON
 | [Dataset by University of Edinburgh](https://datashare.is.ed.ac.uk/handle/10283/1942) (2016)| 35K+ | 86 | English | Free | Noisy speech database for training speech enhancement algorithms and TTS models. |
 | [TIMIT](https://catalog.ldc.upenn.edu/LDC93S1) (1993)| 6K+ | 630 | English | $250.00 | The TIMIT corpus of read speech is one of the earliest speaker recognition datasets. |
 | [VCTK](https://homepages.inf.ed.ac.uk/jyamagis/page3/page58/page58.html) (2009) | 43K+ | 109 | English | Free | Most were selected from a newspaper plus the Rainbow Passage and an elicitation paragraph intended to identify the speaker's accent. |
-| [WSJ0](https://catalog.ldc.upenn.edu/LDC93S6A)(1993) | -- | 149 | English | $1500 | The WSJ database was generated from a machine-readable corpus of Wall Street Journal news text. |
+| [WSJ0](https://catalog.ldc.upenn.edu/LDC93S6A) (1993) | -- | 149 | English | $1500 | The WSJ database was generated from a machine-readable corpus of Wall Street Journal news text. |
 | [LibriSpeech](http://www.openslr.org/12) (2015) | 292K | 2K+ | English | Free | Large-scale (1000 hours) corpus of read English speech. |
 | [CHiME series](https://chimechallenge.github.io/chime6/) (~2020) | -- | -- | English | Free | The database is published by CHiME Speech Separation and Recognition Challenge. | 
 
