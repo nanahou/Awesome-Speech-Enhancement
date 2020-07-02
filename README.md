@@ -149,7 +149,7 @@ To add items to this page, simply send a pull request. ([contributing guide](CON
 
 | Name | Utterances | Speakers | Language | Pricing | Additional information |
 | ---- | ---------- | -------- | -------- | ------- | ---------------------- |
-| [Dataset by University of Edinburgh (2016)](https://datashare.is.ed.ac.uk/handle/10283/1942) | 35K+ | 86 | English | Free | Noisy speech database for training speech enhancement algorithms and TTS models. |
+| [Dataset by University of Edinburgh](https://datashare.is.ed.ac.uk/handle/10283/1942) (2016)| 35K+ | 86 | English | Free | Noisy speech database for training speech enhancement algorithms and TTS models. |
 | [TIMIT](https://catalog.ldc.upenn.edu/LDC93S1) (1993)| 6K+ | 630 | English | $250.00 | The TIMIT corpus of read speech is one of the earliest speaker recognition datasets. |
 | [VCTK](https://homepages.inf.ed.ac.uk/jyamagis/page3/page58/page58.html) (2009) | 43K+ | 109 | English | Free | Most were selected from a newspaper plus the Rainbow Passage and an elicitation paragraph intended to identify the speaker's accent. |
 | [WSJ]() |
@@ -171,11 +171,20 @@ To add items to this page, simply send a pull request. ([contributing guide](CON
 | Wiener | -- | 2.22 | 3.23 | 2.68 | 2.67 | 5.07 | -- |
 | SEGAN | T | 2.16 | 3.48 | 2.94 | 2.80 | 7.73 | 0.93 |
 | CNN-GAN | F | 2.34 | 3.55 | 2.95 | 2.92 | -- | 0.93 |
-| MSE-GAN | F | 2.53 | 3.80 | 3.12 | 3.14 | -- | 0.93 |
+| WaveUnet | T| 2.40 | 3.52 | 3.24 | 2.96 | 9.97 | -- |
 | WaveNet | T | -- | 3.62 | 3.24 | 2.98 | -- | -- |
+| U-net | F | 2.48 | 3.65 | 3.21 | 3.05 | 9.34 | -- |
+| MSE-GAN | F | 2.53 | 3.80 | 3.12 | 3.14 | -- | 0.93 |
 | DFL | T | -- | 3.86 | 3.33 | 3.22 | -- | -- |
-| DFL reimplement by | T | 2.51 | 3.79 | 3.27 | 3.14 | 9.86 |-- |
-| Complex U-net | 
+| DFL reimplemented by | T | 2.51 | 3.79 | 3.27 | 3.14 | 9.86 |-- |
+| TasNet | T | 2.57 | 3.80 | 3.29 | 3.18 | 9.65 | -- |
+| MDPhD | T&F | 2.70 | 3.85 | 3.39 | 3.27 | 10.22 | -- |
+| Complex U-net | F | 3.24 | 4.34 | 4.10 | 3.81 | 16.85 | -- |
+| Complex U-net reimplemented by | F | 2.87 | 4.12 | 3.47 | 3.51 | 9.96 | -- |
+| SDR-PRSQ | F | 3.01 | 4.09 | 3.54 | 3.55 | 10.44 |
+| RHRnet | T | 3.20 | 4.37 | 4.02 | 3.82 | 14.71 | 0.98 |
+
+
 
 ## Other learning materials
 ### Book or thesis
