@@ -76,7 +76,7 @@ To add items to this page, simply send a pull request. ([contributing guide](CON
 
 
 ## tools
-* Framework
+#### Framework
 
 | Link | Language | Description |
 | ---- | -------- | ----------- |
@@ -88,7 +88,7 @@ To add items to this page, simply send a pull request. ([contributing guide](CON
 | [Data format](https://github.com/funcwj/setk/tree/master/doc/format_transform) | Python | Format tranform between Kaldi, Numpy and Matlab. |
 
 
-* Evaluation
+#### Evaluation
 
 | Link | Language | Description |
 | ---- | -------- | ----------- |
@@ -96,7 +96,7 @@ To add items to this page, simply send a pull request. ([contributing guide](CON
 | [SNR, LSD](https://github.com/nanahou/metric) | Python | Evaluation for signal-to-noise-ratio and log-spectral-distortion. |
 | [SDR](https://github.com/nanahou/metric) | Matlab | Evaluation for signal-to-distortion-ratio. |
 
-* Audio feature extraction
+#### Audio feature extraction
 
 | Link  | Language | Description |
 | ----  | -------- | ----------- |
@@ -104,7 +104,7 @@ To add items to this page, simply send a pull request. ([contributing guide](CON
 | [MFCC](https://github.com/jameslyons/python_speech_features) ![GitHub stars](https://img.shields.io/github/stars/jameslyons/python_speech_features?style=social) | Python | This library provides common speech features for ASR including MFCCs and filterbank energies. |
 | [pyAudioAnalysis](https://github.com/tyiannak/pyAudioAnalysis) ![GitHub stars](https://img.shields.io/github/stars/tyiannak/pyAudioAnalysis?style=social) | Python | Python Audio Analysis Library: Feature Extraction, Classification, Segmentation and Applications. |
 
-* Audio data augmentation
+#### Audio data augmentation
 
 | Link  | Language | Description |
 | ----  | -------- | ----------- |
@@ -116,7 +116,7 @@ To add items to this page, simply send a pull request. ([contributing guide](CON
 
 
 ## Datasets
-* Speech ehancement datasets (sorted by usage frequency in paper) 
+#### Speech ehancement datasets (sorted by usage frequency in paper) 
 
 | Name | Utterances | Speakers | Language | Pricing | Additional information |
 | ---- | ---------- | -------- | -------- | ------- | ---------------------- |
@@ -127,7 +127,7 @@ To add items to this page, simply send a pull request. ([contributing guide](CON
 | [LibriSpeech](http://www.openslr.org/12) (2015) | 292K | 2K+ | English | Free | Large-scale (1000 hours) corpus of read English speech. |
 | [CHiME series](https://chimechallenge.github.io/chime6/) (~2020) | -- | -- | English | Free | The database is published by CHiME Speech Separation and Recognition Challenge. | 
 
-* Augmentation noise sources (sorted by usage frequency in paper)
+#### Augmentation noise sources (sorted by usage frequency in paper)
 
 | Name | Noise types | Pricing | Additional information |
 | ---- | ----------- | ------- | ---------------------- |
@@ -136,7 +136,7 @@ To add items to this page, simply send a pull request. ([contributing guide](CON
 | [NoiseX-92](http://www.speech.cs.cmu.edu/comp.speech/Section1/Data/noisex.html) (1996)| 15 | Free | Database of recording of various noises available on 2 CDROMs. |
 
 ## SOTA results
-* STOA results in [dataset by University of Edinburgh](https://datashare.is.ed.ac.uk/handle/10283/1942). The following methods are all trained by "trainset_28spk" and tested by common testset. ("F" denotes frequency-domain and "T" is time-domain.)
+#### STOA results in [dataset by University of Edinburgh](https://datashare.is.ed.ac.uk/handle/10283/1942). The following methods are all trained by "trainset_28spk" and tested by common testset. ("F" denotes frequency-domain and "T" is time-domain.)
 
 | Methods | Publish | Domain | PESQ | CSIG | CBAK | COVL | SegSNR | STOI |
 | ------- | ----- |------------ | ---- | ---- | ---- | ---- | ------ | ---- |
@@ -158,13 +158,13 @@ To add items to this page, simply send a pull request. ([contributing guide](CON
 | [RHRnet](https://arxiv.org/pdf/1904.07294.pdf) | ICASSP 2020 | T | 3.20 | 4.37 | 4.02 | 3.82 | 14.71 | 0.98 |
 
 ## Learning materials
-* Book or thesis
+#### Book or thesis
   * A Study on WaveNet, GANs and General CNNRNN Architectures, 2019 [[link]](http://www.diva-portal.org/smash/get/diva2:1355369/FULLTEXT01.pdf)
   * Deep learning: method and applications, 2016 [[link]](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/DeepLearning-NowPublishing-Vol7-SIG-039.pdf)
   * Deep learning by Ian Goodfellow and Yoshua Bengio and Aaron Courville, 2016 [[link]](https://www.deeplearningbook.org/)
   * Robust automatic speech recognition by Jinyu Li and Li Deng, 2015 [[link]](https://www.sciencedirect.com/book/9780128023983/robust-automatic-speech-recognition)
 
-##### Video tutorials
+#### Video
   * CCF speech seminar 2020 [[link]](https://www.bilibili.com/video/BV1MV411k7iJ)
   * Real-time Single-channel Speech Enhancement with Recurrent Neural Networks by Microsoft Research, 2019 [[link]](https://www.youtube.com/watch?v=r6Ijqo5E3I4)
   * Deep learning in speech by Hongyi Li, 2019 [[link]](https://www.youtube.com/playlist?list=PLJV_el3uVTsOK_ZK5L0Iv_EQoL1JefRL4)
