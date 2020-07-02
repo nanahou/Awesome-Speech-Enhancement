@@ -8,7 +8,6 @@
 
 # Awesome Speech Enhancement
 ## Table of contents
-
 * [Overview](#Overview)
 * [Publications](#Publications)
   * [Survey](*Survey)
@@ -44,7 +43,7 @@ This is a curated list of awesome Speech Enhancement tutorials, papers, librarie
 To add items to this page, simply send a pull request. ([contributing guide](CONTRIBUTING.md))
 
 ## Publications
-### To be categorized
+### Coming soon...
 #### Survey
 * A literature survey on single channel speech enhancement, 2020 [[paper]](http://www.ijstr.org/final-print/mar2020/A-Literature-Survey-On-Single-Channel-Speech-Enhancement-Techniques.pdf)
 * Supervised speech separation based on deep learning: An Overview, 2017 [[paper]](https://arxiv.org/pdf/1708.07524.pdf)
