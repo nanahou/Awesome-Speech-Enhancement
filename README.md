@@ -40,7 +40,7 @@
 
 This is a curated list of awesome Speech Enhancement tutorials, papers, libraries, datasets, tools, scripts and results. The purpose of this repo is to organize the world’s resources for speech enhancement, and make them universally accessible and useful.
 
-To add items to this page, simply send a pull request. ([contributing guide](CONTRIBUTING.md))
+To add items to this page, simply send a pull request.
 
 ## Publications
 ### Coming soon...
