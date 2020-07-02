@@ -185,6 +185,12 @@ To add items to this page, simply send a pull request. ([contributing guide](CON
 * [DIHARD 2018](https://coml.lscp.ens.fr/dihard/2018/results.php)
 
 ## Other learning materials
+### Book or Thesis
+* [A Study on WaveNet, GANs and General CNNRNN Architectures, 2019](http://www.diva-portal.org/smash/get/diva2:1355369/FULLTEXT01.pdf)
+
+### Slides
+* [INTERSPEECH tutorial 2015 by Deng Li](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/07/interspeech-tutorial-2015-lideng-sept6a.pdf)
+
 * [High-Accuracy Neural-Network Models for Speech Enhancement - 2017](https://www.microsoft.com/en-us/research/video/high-accuracy-neural-network-models-speech-enhancement/)
 * [ DNN-Based Online Speech Enhancement Using Multitask Learning and Suppression Rule Estimation - 2015](https://www.microsoft.com/en-us/research/video/dnn-based-online-speech-enhancement-using-multitask-learning-and-suppression-rule-estimation/)
 * [Microphone array signal processing: beyond the beamformer - 2011](https://www.microsoft.com/en-us/research/video/microphone-array-signal-processing-beyond-the-beamformer/)
