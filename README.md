@@ -163,24 +163,24 @@ To add items to this page, simply send a pull request. ([contributing guide](CON
 | [MUSAN](https://www.openslr.org/17/) | N/A | Free | MUSAN is a corpus of music, speech, and noise recordings. |
 
 ## SOTA results
-* STOA results in [dataset by University of Edinburgh](https://datashare.is.ed.ac.uk/handle/10283/1942). The following methods are all trained by "trainset_28spk" and tested by common testset.
+* STOA results in [dataset by University of Edinburgh](https://datashare.is.ed.ac.uk/handle/10283/1942). The following methods are all trained by "trainset_28spk" and tested by common testset. ("F" denotes frequency-domain and "T" is time-domain.)
 
-| Methods | Feature type | PESQ | CSIG | CBAK | COVL | SegSNR | STOI |
+| Methods | Domain | PESQ | CSIG | CBAK | COVL | SegSNR | STOI |
 | ------- | ------------ | ---- | ---- | ---- | ---- | ------ | ---- |
-| Noisy | -- | 1.97 | 3.35 | 2.44 | 2.63 | 1.68 | 0.91 |
-| Wiener | -- | 2.22 | 3.23 | 2.68 | 2.67 | 5.07 | -- |
-| SEGAN | T | 2.16 | 3.48 | 2.94 | 2.80 | 7.73 | 0.93 |
+| [Noisy](https://arxiv.org/pdf/1703.09452.pdf) | -- | 1.97 | 3.35 | 2.44 | 2.63 | 1.68 | 0.91 |
+| [Wiener](https://arxiv.org/pdf/1703.09452.pdf) | -- | 2.22 | 3.23 | 2.68 | 2.67 | 5.07 | -- |
+| [SEGAN](https://arxiv.org/pdf/1703.09452.pdf) | T | 2.16 | 3.48 | 2.94 | 2.80 | 7.73 | 0.93 |
 | CNN-GAN | F | 2.34 | 3.55 | 2.95 | 2.92 | -- | 0.93 |
 | WaveUnet | T| 2.40 | 3.52 | 3.24 | 2.96 | 9.97 | -- |
 | WaveNet | T | -- | 3.62 | 3.24 | 2.98 | -- | -- |
 | U-net | F | 2.48 | 3.65 | 3.21 | 3.05 | 9.34 | -- |
 | MSE-GAN | F | 2.53 | 3.80 | 3.12 | 3.14 | -- | 0.93 |
 | DFL | T | -- | 3.86 | 3.33 | 3.22 | -- | -- |
-| DFL reimplemented by | T | 2.51 | 3.79 | 3.27 | 3.14 | 9.86 |-- |
+| DFL reimplemented | T | 2.51 | 3.79 | 3.27 | 3.14 | 9.86 |-- |
 | TasNet | T | 2.57 | 3.80 | 3.29 | 3.18 | 9.65 | -- |
 | MDPhD | T&F | 2.70 | 3.85 | 3.39 | 3.27 | 10.22 | -- |
 | Complex U-net | F | 3.24 | 4.34 | 4.10 | 3.81 | 16.85 | -- |
-| Complex U-net reimplemented by | F | 2.87 | 4.12 | 3.47 | 3.51 | 9.96 | -- |
+| Complex U-net reimplemented | F | 2.87 | 4.12 | 3.47 | 3.51 | 9.96 | -- |
 | SDR-PRSQ | F | 3.01 | 4.09 | 3.54 | 3.55 | 10.44 |
 | RHRnet | T | 3.20 | 4.37 | 4.02 | 3.82 | 14.71 | 0.98 |
 
