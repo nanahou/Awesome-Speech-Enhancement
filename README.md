@@ -33,7 +33,7 @@
 * [SOTA results](#SOTA-results)
 * [Learning materials](#Learning-materials)
   * [Book or thesis](#book-or-thesis)
-  * [Video tutorials](#Video-tutorials)
+  * [Video](#Video)
   * [Slides](#Slides)
 
 ## Overview
@@ -172,7 +172,7 @@ To add items to this page, simply send a pull request. ([contributing guide](CON
   * DNN-Based Online Speech Enhancement Using Multitask Learning and Suppression Rule Estimation, 2015 [[link]](https://www.microsoft.com/en-us/research/video/dnn-based-online-speech-enhancement-using-multitask-learning-and-suppression-rule-estimation/)
   * Microphone array signal processing: beyond the beamformer,2011 [[link]](https://www.microsoft.com/en-us/research/video/microphone-array-signal-processing-beyond-the-beamformer/)
 
-* Slides
+#### Slides
   * Deep learning in speech by Hongyi Li, 2019 [[link]](http://speech.ee.ntu.edu.tw/~tlkagk/courses_ML19.html)
   * Learning-based approach to speech enhancement and separation (INTERSPEECH tutorial, 2016) [[link]](https://github.com/nanahou/Awesome-Speech-Enhancement/blob/master/learning-materials/2016-interspeech-tutorial.pdf)
   * Deep learning for speech/language processing (INTERSPEECH tutorial by Li Deng, 2015) [[link]](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/07/interspeech-tutorial-2015-lideng-sept6a.pdf)
