@@ -103,7 +103,7 @@ To add items to this page, simply send a pull request.
 
 | Link | Language | Description |
 | ---- | -------- | ----------- |
-| [PESQ etc.](.tools/README.md) | Matlab | Evaluation for PESQ, CSIG, CBAK, COVL, STOI |
+| [PESQ etc.](tools) | Matlab | Evaluation for PESQ, CSIG, CBAK, COVL, STOI |
 | [SNR, LSD](https://github.com/nanahou/metric) | Python | Evaluation for signal-to-noise-ratio and log-spectral-distortion. |
 | [SDR](https://github.com/nanahou/metric) | Matlab | Evaluation for signal-to-distortion-ratio. |
 
