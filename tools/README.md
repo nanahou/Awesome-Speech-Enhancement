@@ -10,7 +10,7 @@ sh download_pesq_tool.sh
 
 Scripts download 2 PESQ packages, the calculation results of two packages are different due different versions. Please decide which one is prefered to you.
 
-To evaluate the difference between calculations between two packages, we utilize the public testset of [dataset by University of Edinburgh](https://datashare.is.ed.ac.uk/handle/10283/1942). The following results are calculated between "noisy_testwav" and "clean_test_wav".
+To evaluate the difference between calculations between two packages, we utilize the public testset of [dataset by University of Edinburgh](https://datashare.is.ed.ac.uk/handle/10283/1942). The following results are calculated between "noisy_testwav" and "clean_test_wav". "K14513_CD_Files" package is utilized in [SOTA results](https://github.com/nanahou/Awesome-Speech-Enhancement/#SOTA)
 
 |Package|PESQ|CSIG|CBAK|COVL|SegSNR|
 |----|----|----|----|----|----|
