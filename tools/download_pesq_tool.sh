@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 
-echo "Start to download PESQ tools"
+echo "Start to download 2 PESQ packages, 
+the calculation results of two packages are different.
+Please decide which one is prefered to you."
 
 cd metric/
 
