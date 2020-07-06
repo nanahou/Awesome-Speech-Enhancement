@@ -173,11 +173,11 @@ To add items to this page, simply send a pull request.
 
 ## Learning materials
 #### Book or thesis
+  * Audio Source Separation and Speech Enhancement, Emmanuel Vincent, 2018 [[link]](https://github.com/gemengtju/Tutorial_Separation/tree/master/book)
   * A Study on WaveNet, GANs and General CNNRNN Architectures, 2019 [[link]](http://www.diva-portal.org/smash/get/diva2:1355369/FULLTEXT01.pdf)
   * Deep learning: method and applications, 2016 [[link]](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/DeepLearning-NowPublishing-Vol7-SIG-039.pdf)
   * Deep learning by Ian Goodfellow and Yoshua Bengio and Aaron Courville, 2016 [[link]](https://www.deeplearningbook.org/)
   * Robust automatic speech recognition by Jinyu Li and Li Deng, 2015 [[link]](https://www.sciencedirect.com/book/9780128023983/robust-automatic-speech-recognition)
-  * Audio Source Separation and Speech Enhancement, Emmanuel Vincent, 2018 [[link]](https://github.com/gemengtju/Tutorial_Separation/tree/master/book)
 
 #### Video
   * CCF speech seminar 2020 [[link]](https://www.bilibili.com/video/BV1MV411k7iJ)
