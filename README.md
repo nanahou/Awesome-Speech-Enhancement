@@ -76,6 +76,7 @@ To add items to this page, simply send a pull request.
 * PAGAN: a phase-adapted generative adversarial networks for speech enhancement, ICASSP 2020 [[paper](https://ieeexplore.ieee.org/document/9054256)
 * Invertible dnn-based nonlinear time-frequency transform for speech enhancement, ICASSP 2020 [[paper]](https://arxiv.org/pdf/1911.10764.pdf)
 * Phase-aware speech enhancement with deep complex u-net, ICLR 2019 [[paper]](https://openreview.net/pdf?id=SkeRTsAcYm) [[code]](https://github.com/sweetcocoa/DeepComplexUNetPyTorch)
+* PHASEN: A Phase-and-Harmonics-Aware Speech Enhancement Network, AAAI 2020 [[paper]](https://aaai.org/Papers/AAAI/2020GB/AAAI-YinD.3057.pdf)
 #### Learning strategy
 ##### Loss function
   * Speech denoising with deep feature losses, Interspeech 2019 [[paper]](https://arxiv.org/pdf/1806.10522.pdf)
