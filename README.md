@@ -125,6 +125,7 @@ To add items to this page, simply send a pull request.
 | [pyroomacoustics](https://github.com/LCAV/pyroomacoustics) ![GitHub stars](https://img.shields.io/github/stars/LCAV/pyroomacoustics?style=social) | Python | Pyroomacoustics is a package for audio signal processing for indoor applications. |
 | [gpuRIR](https://github.com/DavidDiazGuerra/gpuRIR) ![GitHub stars](https://img.shields.io/github/stars/DavidDiazGuerra/gpuRIR?style=social) | Python | Python library for Room Impulse Response (RIR) simulation with GPU acceleration |
 | [rir_simulator_python](https://github.com/sunits/rir_simulator_python) ![GitHub stars](https://img.shields.io/github/stars/sunits/rir_simulator_python?style=social) | Python | Room impulse response simulator using python |
+| [audiomentations](https://github.com/iver56/audiomentations) ![GitHub stars](https://img.shields.io/github/stars/iver56/audiomentations?style=social) | Python | A Python library for audio data augmentation, e.g. time stretch, pitch shift, add noise, add room reverberation |
 
 
 ## Datasets
