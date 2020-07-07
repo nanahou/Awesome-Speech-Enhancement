@@ -58,8 +58,10 @@ To add items to this page, simply send a pull request.
 ##### Filter design
   * Efficient trainable front-ends for neural speech enhancement, ICASSP 2020 [[paper]](https://arxiv.org/pdf/2002.09286.pdf)
 ##### Fusion techniques
+  * Spectrograms fusion with minimum difference masks estimation for monaural speech dereverberation, ICASSP 2020 [[paper]](https://ieeexplore.ieee.org/abstract/document/9054661)
   * Masking and inpainting: a two-stage speech enhancement approach for low snr and non-stationary noise, ICASSP 2020 [[paper]](https://ieeexplore.ieee.org/document/9053188)
   * A composite dnn architecture for speech enhancement, ICASSP 2020 [[paper]](https://ieeexplore.ieee.org/document/9053821)
+  * An attention-based neural network approach for single channel speech enhancement, ICASSP 2019 [[paper]](http://www.npu-aslp.org/lxie/papers/2019ICASSP-XiangHao.pdf)
   * Multi-domain processing via hybrid denoising networks for speech enhancement, 2018 [[paper]](https://arxiv.org/pdf/1812.08914.pdf)
 ##### Attention
   * Speech enhancement using self-adaptation and multi-head attention, ICASSP 2020 [[paper]](https://arxiv.org/pdf/2002.05873.pdf)
