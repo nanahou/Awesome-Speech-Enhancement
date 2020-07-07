@@ -68,7 +68,7 @@ To add items to this page, simply send a pull request.
 ##### U-net
   * Phase-aware speech enhancement with deep complex u-net, ICLR 2019 [[paper]](https://openreview.net/pdf?id=SkeRTsAcYm) [[code]](https://github.com/sweetcocoa/DeepComplexUNetPyTorch)
 ##### GAN
-  * PAGAN: a phase-adapted generative adversarial networks for speech enhancement, ICASSP 2020 [[paper](https://ieeexplore.ieee.org/document/9054256) 
+  * PAGAN: a phase-adapted generative adversarial networks for speech enhancement, ICASSP 2020 [[paper]](https://ieeexplore.ieee.org/document/9054256) 
   * Time-frequency masking-based speech enhancement using generative adversarial network, ICASSP 2018 [[paper]](http://150.162.46.34:8080/icassp2018/ICASSP18_USB/pdfs/0005039.pdf)
   * SEGAN: speech enhancement generative adversarial network, Interspeech 2017 [[paper]](https://arxiv.org/pdf/1703.09452.pdf) 
 #### Phase reconstruction
