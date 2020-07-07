@@ -82,6 +82,10 @@ To add items to this page, simply send a pull request.
   * Speech denoising with deep feature losses, Interspeech 2019 [[paper]](https://arxiv.org/pdf/1806.10522.pdf)
   * End-to-end multi-task denoising for joint sdr and pesq optimization, Arxiv 2019 [[paper]](https://arxiv.org/pdf/1901.09146.pdf)
 ##### Multi-task learning
+  * Multi-objective learning and mask-based post-processing for deep neural network based speech enhancement, Arxiv 2017 [[paper]](https://arxiv.org/pdf/1703.07172.pdf)
+  * Multiple-target deep learning for LSTM-RNN based speech enhancement, HSCMA 2017 [[paper]](http://home.ustc.edu.cn/~sunlei17/pdf/MULTIPLE-TARGET.pdf)
+  * Speech enhancement and recognition using multi-task learning of long short-term memory recurrent neural networks, ISCA 2015 [[paper]](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.712.1367&rep=rep1&type=pdf)
+
 ##### Curriculum learning
 #### Other improvements
 * Improving robustness of deep learning based monaural speech enhancement against processing artifacts, ICASSP 2020 [[paper]](https://ieeexplore.ieee.org/document/9054145)
