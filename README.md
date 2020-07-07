@@ -40,6 +40,8 @@
 
 This is a curated list of awesome Speech Enhancement tutorials, papers, libraries, datasets, tools, scripts and results. The purpose of this repo is to organize the world’s resources for speech enhancement, and make them universally accessible and useful.
 
+This repo is jointly contributed by [Nana Hou](https://www.linkedin.com/in/nana-hou-592a80127/) (Nanyang Technoligical University), [Ge Meng](https://www.linkedin.com/in/meng-ge-a79787197/), [Shi Hao](https://www.linkedin.com/in/hao-shi-29300b1b2/) (Tianjin University), [Chenglin Xu](https://www.linkedin.com/in/xuchenglin28/) (National University of Singapore), Chen Weiguang (Hunan University).
+
 To add items to this page, simply send a pull request.
 
 ## Publications
