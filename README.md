@@ -177,7 +177,7 @@ To add items to this page, simply send a pull request.
 | [Complex U-net reimplemented](https://arxiv.org/pdf/1901.09146.pdf) | arxiv 2019 | F | 2.87 | 4.12 | 3.47 | 3.51 | 9.96 | -- |
 | [SDR-PRSQ](https://arxiv.org/pdf/1901.09146.pdf) | arxiv 2019 | F | 3.01 | 4.09 | 3.54 | 3.55 | 10.44 |
 | [T-GSA](https://arxiv.org/pdf/1910.06762.pdf) | ICASSP 2020 | F | 3.06 | 4.18 | 3.59 | 3.62 | 10.78 | --|
-| [RHRnet](https://arxiv.org/pdf/1904.07294.pdf) (using full dataset) | ICASSP 2020 | T | 3.20 | 4.37 | 4.02 | 3.82 | 14.71 | 0.98 |
+| [RHRnet](https://arxiv.org/pdf/1904.07294.pdf) | ICASSP 2020 | T | 3.20 | 4.37 | 4.02 | 3.82 | 14.71 | 0.98 |
 
 ## Learning materials
 #### Book or thesis
