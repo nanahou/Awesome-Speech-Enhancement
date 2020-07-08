@@ -23,6 +23,7 @@
     * [Loss function](#Loss-function)
     * [Multi-task learning](#Multi-task-learning)
     * [Curriculum learning](#Curriculum-learning)
+    * [Transfer learning](#Transfer-learning)    
   * [Other improvements](#Other-improvements)
 * [Datasets](#Datasets)
 * [Tools](#Tools)
@@ -91,6 +92,11 @@ To add items to this page, simply send a pull request.
   * Speech enhancement and recognition using multi-task learning of long short-term memory recurrent neural networks, ISCA 2015 [[paper]](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.712.1367&rep=rep1&type=pdf)
 
 ##### Curriculum learning
+  * SNR-Based Progressive Learning of Deep Neural Network for Speech Enhancement, INTERSPEECH 2016 [[paper]](http://staff.ustc.edu.cn/~jundu/Publications/publications/IS2016_Gao.pdf)
+
+##### Transfer learning
+  * Cross-language transfer learning for deep neural network based speech enhancement, ISCSLP 2014 [[paper]](http://staff.ustc.edu.cn/~jundu/The%20team/yongxu/demo/pdfs/Yong_ISCSLP2014.pdf)
+
 #### Other improvements
 * Improving robustness of deep learning based monaural speech enhancement against processing artifacts, ICASSP 2020 [[paper]](https://ieeexplore.ieee.org/document/9054145)
 
