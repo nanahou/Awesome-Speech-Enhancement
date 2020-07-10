@@ -46,6 +46,8 @@ To add items to this page, simply send a pull request.
 ### Coming soon...
 #### Survey
 * A literature survey on single channel speech enhancement, 2020 [[paper]](http://www.ijstr.org/final-print/mar2020/A-Literature-Survey-On-Single-Channel-Speech-Enhancement-Techniques.pdf)
+* Research Advances and Perspectives on the Cocktail Party Problem and Related Auditory Models, Bo Xu, 2019 [[paper (Chinese)]](http://www.aas.net.cn/article/zdhxb/2019/2/234)
+* Deep Learning for Environmentally Robust Speech Recognition: An Overview of Recent Developments, Zixing Zhang, 2017 [[paper]](https://arxiv.org/pdf/1705.10874.pdf)
 * Supervised speech separation based on deep learning: An Overview, 2017 [[paper]](https://arxiv.org/pdf/1708.07524.pdf)
 * A review on speech enhancement techniques, 2015 [[paper]](https://ieeexplore.ieee.org/document/7087096)
 * Nonlinear speech enhancement: an overview, 2007 [[paper]](https://www.researchgate.net/publication/225400856_Nonlinear_Speech_Enhancement_An_Overview)
