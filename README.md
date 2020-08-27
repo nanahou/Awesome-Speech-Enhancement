@@ -32,6 +32,7 @@
   * [Audio feature extraction](#Audio-feature-extraction)
   * [Audio data augmentation](#Audio-data-augmentation)
 * [SOTA results](#SOTA-results)
+* [Applications](#Applications)
 * [Learning materials](#Learning-materials)
   * [Book or thesis](#book-or-thesis)
   * [Video](#Video)
@@ -59,6 +60,9 @@ To add items to this page, simply send a pull request.
 * PAN: phoneme-aware network for monaural speech enhancement, ICASSP 2020 [[paper]](https://ieeexplore.ieee.org/document/9054334)
 * Noise tokens: learning neural noise templates for environment-aware speech enhancement [[paper]](https://arxiv.org/pdf/2004.04001.pdf)
 * Speaker-aware deep denoising autoencoder with embedded speaker identity for speech enhancement, Interspeech 2019 [[paper]](https://www.isca-speech.org/archive/Interspeech_2019/pdfs/2108.pdf)
+#### Audio-Visual SE 
+* Lite Audio-Visual Speech Enhancement, INTERSPEECH 2020 [[paper]](https://arxiv.org/pdf/2005.11769.pdf)
+* Audio-Visual Speech Enhancement Using Multimodal Deep Convolutional Neural Networks, TETCI, 2018 (first audio-visual SE) [[journal]](https://ieeexplore.ieee.org/document/8323326)
 #### Network design
 ##### Filter design
   * Efficient trainable front-ends for neural speech enhancement, ICASSP 2020 [[paper]](https://arxiv.org/pdf/2002.09286.pdf)
@@ -76,8 +80,11 @@ To add items to this page, simply send a pull request.
   * Phase-aware speech enhancement with deep complex u-net, ICLR 2019 [[paper]](https://openreview.net/pdf?id=SkeRTsAcYm) [[code]](https://github.com/sweetcocoa/DeepComplexUNetPyTorch)
 ##### GAN
   * PAGAN: a phase-adapted generative adversarial networks for speech enhancement, ICASSP 2020 [[paper]](https://ieeexplore.ieee.org/document/9054256) 
+  * MetricGAN: Generative Adversarial Networks based Black-box Metric Scores Optimization for Speech Enhancement, ICML 2019 [[paper]](http://proceedings.mlr.press/v97/fu19b/fu19b.pdf)
   * Time-frequency masking-based speech enhancement using generative adversarial network, ICASSP 2018 [[paper]](http://150.162.46.34:8080/icassp2018/ICASSP18_USB/pdfs/0005039.pdf)
   * SEGAN: speech enhancement generative adversarial network, Interspeech 2017 [[paper]](https://arxiv.org/pdf/1703.09452.pdf) 
+##### Auto-Encoder
+  * Speech Enhancement Based on Deep Denoising Autoencoder, INTERSPEECH 2013 (first deep learning based SE) [[paper]](https://www.citi.sinica.edu.tw/papers/yu.tsao/3582-F.pdf)
 #### Phase reconstruction
 * Phase reconstruction based on recurrent phase unwrapping with deep neural networks, ICASSP 2020 [[paper]](https://arxiv.org/pdf/2002.05832.pdf)
 * PAGAN: a phase-adapted generative adversarial networks for speech enhancement, ICASSP 2020 [[paper](https://ieeexplore.ieee.org/document/9054256)
@@ -86,6 +93,7 @@ To add items to this page, simply send a pull request.
 * PHASEN: A Phase-and-Harmonics-Aware Speech Enhancement Network, AAAI 2020 [[paper]](https://aaai.org/Papers/AAAI/2020GB/AAAI-YinD.3057.pdf)
 #### Learning strategy
 ##### Loss function
+  * MetricGAN: Generative Adversarial Networks based Black-box Metric Scores Optimization for Speech Enhancement, ICML 2019 [[paper]](http://proceedings.mlr.press/v97/fu19b/fu19b.pdf)
   * Speech denoising with deep feature losses, Interspeech 2019 [[paper]](https://arxiv.org/pdf/1806.10522.pdf)
   * End-to-end multi-task denoising for joint sdr and pesq optimization, Arxiv 2019 [[paper]](https://arxiv.org/pdf/1901.09146.pdf)
 ##### Multi-task learning
@@ -188,6 +196,8 @@ To add items to this page, simply send a pull request.
 | [T-GSA](https://arxiv.org/pdf/1910.06762.pdf) | ICASSP 2020 | F | 3.06 | 4.18 | 3.59 | 3.62 | 10.78 | --|
 | [RHRnet](https://arxiv.org/pdf/1904.07294.pdf) | ICASSP 2020 | T | 3.20 | 4.37 | 4.02 | 3.82 | 14.71 | 0.98 |
 
+## Applications
+* a speech enhancement Android APP [[download]](https://drive.google.com/file/d/1OabFInICw8_PVq5x5TWpaiW1dOuwiaaH/view)[[video]](https://github.com/yuwchen/CITISEN?fbclid=IwAR3UPzhmFAXsjMi02-vHSLKAr3ywUQrX-ERFrSplpZun728UaRuhh4DchW8)[[Github]](https://www.youtube.com/watch?v=BUfY64TCXi4&feature=youtu.be&fbclid=IwAR26Vjqc43Zk3wp0cbpbtOYDglbmt0rAd_tE3cmGZbkj7VEQZpyd2b0RrRI)
 ## Learning materials
 #### Book or thesis
   * Audio Source Separation and Speech Enhancement, Emmanuel Vincent, 2019 [[link]](https://github.com/gemengtju/Tutorial_Separation/tree/master/book)
@@ -205,6 +215,7 @@ To add items to this page, simply send a pull request.
   * Microphone array signal processing: beyond the beamformer,2011 [[link]](https://www.microsoft.com/en-us/research/video/microphone-array-signal-processing-beyond-the-beamformer/)
 
 #### Slides
+  * Speech Enhancement based on Deep Learning and Intelligibility Evaluation by Yu Tsao, (APSIPA 2019 tutorial, INTERSPEECH 2020 tutorial) [[link]](https://www.citi.sinica.edu.tw/papers/yu.tsao/7026-F.pdf)
   * Deep learning in speech by Hongyi Li, 2019 [[link]](http://speech.ee.ntu.edu.tw/~tlkagk/courses_ML19.html)
   * Learning-based approach to speech enhancement and separation (INTERSPEECH tutorial, 2016) [[link]](https://github.com/nanahou/Awesome-Speech-Enhancement/blob/master/learning-materials/2016-interspeech-tutorial.pdf)
   * Deep learning for speech/language processing (INTERSPEECH tutorial by Li Deng, 2015) [[link]](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/07/interspeech-tutorial-2015-lideng-sept6a.pdf)
