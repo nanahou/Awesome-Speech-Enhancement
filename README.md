@@ -12,12 +12,14 @@
 * [Publications](#Publications)
   * [Survey](*Survey)
   * [Feature augmentation](#Feature-augmentation)
+  * [Audio-Visual SE](#Audio-Visual0SE)
   * [Network design](#Network-design)
       * [Filter design](#Filter-design)
       * [Fusion techniques](#Fusion-techniques)
       * [Attention](#Attention)
       * [U-net](#U-Net)
       * [GAN](#GAN)
+      * [Auto-Encoder](#Auto-Encoder)
   * [Phase reconstruction](#Phase-reconstruction)
   * [Learning strategy](#Learning-strategy)
     * [Loss function](#Loss-function)
@@ -197,7 +199,7 @@ To add items to this page, simply send a pull request.
 | [RHRnet](https://arxiv.org/pdf/1904.07294.pdf) | ICASSP 2020 | T | 3.20 | 4.37 | 4.02 | 3.82 | 14.71 | 0.98 |
 
 ## Applications
-* a speech enhancement Android APP [[download]](https://drive.google.com/file/d/1OabFInICw8_PVq5x5TWpaiW1dOuwiaaH/view)[[video]](https://github.com/yuwchen/CITISEN?fbclid=IwAR3UPzhmFAXsjMi02-vHSLKAr3ywUQrX-ERFrSplpZun728UaRuhh4DchW8)[[Github]](https://www.youtube.com/watch?v=BUfY64TCXi4&feature=youtu.be&fbclid=IwAR26Vjqc43Zk3wp0cbpbtOYDglbmt0rAd_tE3cmGZbkj7VEQZpyd2b0RrRI)
+* a speech enhancement Android APP from Prof. Yu Tsao's group[[download]](https://drive.google.com/file/d/1OabFInICw8_PVq5x5TWpaiW1dOuwiaaH/view)[[video]](https://github.com/yuwchen/CITISEN?fbclid=IwAR3UPzhmFAXsjMi02-vHSLKAr3ywUQrX-ERFrSplpZun728UaRuhh4DchW8)[[Github]](https://www.youtube.com/watch?v=BUfY64TCXi4&feature=youtu.be&fbclid=IwAR26Vjqc43Zk3wp0cbpbtOYDglbmt0rAd_tE3cmGZbkj7VEQZpyd2b0RrRI)
 ## Learning materials
 #### Book or thesis
   * Audio Source Separation and Speech Enhancement, Emmanuel Vincent, 2019 [[link]](https://github.com/gemengtju/Tutorial_Separation/tree/master/book)
