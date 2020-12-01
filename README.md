@@ -217,7 +217,8 @@ To add items to this page, simply send a pull request.
   * Microphone array signal processing: beyond the beamformer,2011 [[link]](https://www.microsoft.com/en-us/research/video/microphone-array-signal-processing-beyond-the-beamformer/)
 
 #### Slides
-  * Speech Enhancement based on Deep Learning and Intelligibility Evaluation by Yu Tsao, (APSIPA 2019 tutorial, INTERSPEECH 2020 tutorial) [[link]](https://www.citi.sinica.edu.tw/papers/yu.tsao/7026-F.pdf)
+  * Intelligibility Evaluation and Speech Enhancement based on Deep Learning by Yu Tsao, (INTERSPEECH 2020 tutorial) [[link]](https://www.citi.sinica.edu.tw/papers/yu.tsao/7463-F.pdf) [[video]](https://www.youtube.com/watch?v=89S4CgfPWG0)
+  * Speech Enhancement based on Deep Learning and Intelligibility Evaluation by Yu Tsao, (APSIPA 2019 tutorial) [[link]](https://www.citi.sinica.edu.tw/papers/yu.tsao/7472-F.pdf)
   * Deep learning in speech by Hongyi Li, 2019 [[link]](http://speech.ee.ntu.edu.tw/~tlkagk/courses_ML19.html)
   * Learning-based approach to speech enhancement and separation (INTERSPEECH tutorial, 2016) [[link]](https://github.com/nanahou/Awesome-Speech-Enhancement/blob/master/learning-materials/2016-interspeech-tutorial.pdf)
   * Deep learning for speech/language processing (INTERSPEECH tutorial by Li Deng, 2015) [[link]](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/07/interspeech-tutorial-2015-lideng-sept6a.pdf)
